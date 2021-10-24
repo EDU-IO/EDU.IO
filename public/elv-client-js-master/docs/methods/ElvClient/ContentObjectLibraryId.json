@@ -1,0 +1,14 @@
+[
+  {
+    "signature": "async ContentObjectLibraryId({\n  \"objectId\": \"iq__4Ym91uVyPhayTRsew3ixQ8aGDJjy\"\n});",
+    "result": "\"ilib3JgZBNxZE8ZkM4jP8YUAdTnjukWV\""
+  },
+  {
+    "signature": "async ContentObjectLibraryId({\n  \"objectId\": \"iq__3MvjYsa9bi4aywAYAXUhrvsQVHZq\"\n});",
+    "result": "\"ilib2wXUwatNUvPoBWtNyiyDEsEYRxX3\""
+  },
+  {
+    "signature": "async ContentObjectLibraryId({\n  \"versionHash\": \"hq__5u5T6cb8qSAE5ms7hQF6FMcmPmDTeyZHu1Zz5rFjLCHnzeVrFMt993cDcstkW4k5AqrrRN91sP\"\n});",
+    "result": "\"ilib3762veoskHQtAwoUZZRX26V2qKc2\""
+  }
+]

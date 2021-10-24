@@ -1,0 +1,26 @@
+[
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"permissions\": [\n    \"contributor\"\n  ]\n});",
+    "result": "{}"
+  },
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"permissions\": [\n    \"reviewer\"\n  ]\n});",
+    "result": "{}"
+  },
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"permissions\": [\n    \"accessor\"\n  ]\n});",
+    "result": "{}"
+  },
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\"\n});",
+    "result": "{\n  \"0x1770921fada087576272ccca2a30cc0f5bbec934\": [\n    \"accessor\",\n    \"contributor\",\n    \"reviewer\"\n  ]\n}"
+  },
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"permissions\": [\n    \"reviewer\"\n  ]\n});",
+    "result": "{\n  \"0x1770921fada087576272ccca2a30cc0f5bbec934\": [\n    \"reviewer\"\n  ]\n}"
+  },
+  {
+    "signature": "async ContentLibraryGroupPermissions({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\"\n});",
+    "result": "{\n  \"0x1770921fada087576272ccca2a30cc0f5bbec934\": [\n    \"accessor\",\n    \"contributor\"\n  ]\n}"
+  }
+]

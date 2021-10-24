@@ -1,0 +1,14 @@
+[
+  {
+    "signature": "async RedeemCode({\n  \"tenantId\": \"iten4PgJYBY7UP3YpP2DYm7C9XxxL7kU\",\n  \"ntpId\": \"QOTPVcP8nDqZhv5\",\n  \"code\": \"4Rj7Vu\",\n  \"email\": \"\"\n});",
+    "result": "\"iq__3ax1WuidvcNm8Bd2CGEnqLYScsxL\""
+  },
+  {
+    "signature": "async RedeemCode({\n  \"tenantId\": \"iten4PgJYBY7UP3YpP2DYm7C9XxxL7kU\",\n  \"ntpId\": \"QOTPMd5QEYWokX3\",\n  \"code\": \"Cxr5Za\",\n  \"email\": \"\"\n});",
+    "result": "\"iq__3ax1WuidvcNm8Bd2CGEnqLYScsxL\""
+  },
+  {
+    "signature": "async RedeemCode({\n  \"tenantId\": \"iten4PgJYBY7UP3YpP2DYm7C9XxxL7kU\",\n  \"ntpId\": \"QOTPMd5QEYWokX3\",\n  \"code\": \"Ne94Tv\",\n  \"email\": \"person@example.com\"\n});",
+    "result": "\"iq__3ax1WuidvcNm8Bd2CGEnqLYScsxL\""
+  }
+]

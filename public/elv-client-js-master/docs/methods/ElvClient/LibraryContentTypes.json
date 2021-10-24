@@ -1,0 +1,10 @@
+[
+  {
+    "signature": "async LibraryContentTypes({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\"\n});",
+    "result": "{}"
+  },
+  {
+    "signature": "async LibraryContentTypes({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\"\n});",
+    "result": "{\n  \"iq__3ZeNik5xdThEuYsEaGj8fAE7Kcv4\": {\n    \"id\": \"iq__3ZeNik5xdThEuYsEaGj8fAE7Kcv4\",\n    \"hash\": \"hq__LVJqN7DWzCeZSQRvjxTaSGSpnpDbec1uMwDhAgaaKEPT8cydYYwBgA19foTuw3e2EYTzGe5fW8\",\n    \"name\": \"Test Content Type ccabade66b8fa5924627\",\n    \"meta\": {\n      \"bitcode_part\": \"hqp_R3rrwwWjBqFTzW4FbcDni1fmRZNtp6basgRReMau3HLVZTpR\",\n      \"commit\": {\n        \"author\": \"0x665aee2328fa4040e569e91be23faf5a82a6186c\",\n        \"author_address\": \"0x665aee2328fa4040e569e91be23faf5a82a6186c\",\n        \"message\": \"Create content type\",\n        \"timestamp\": \"2021-03-09T20:00:47.030Z\"\n      },\n      \"name\": \"Test Content Type ccabade66b8fa5924627\",\n      \"public\": {\n        \"name\": \"Test Content Type ccabade66b8fa5924627\"\n      }\n    }\n  }\n}"
+  }
+]

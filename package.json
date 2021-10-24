@@ -1,0 +1,25 @@
+{
+  "name": "edu.io",
+  "version": "1.0.0",
+  "description": "EDU.IO is a decentralized educational video streaming media platform &amp; fractionalized NFT exchange that empowers creator economy and redefines knowledge value distribution via smart contracts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDU-IO/EDU.IO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDU-IO/EDU.IO/issues"
+  },
+  "homepage": "https://github.com/EDU-IO/EDU.IO#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "ipfs-http-client": "^53.0.1"
+  }
+}

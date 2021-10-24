@@ -1,0 +1,788 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" >
+
+  <title>
+    UserProfileClient.js - Documentation
+  </title>
+
+  <script src="scripts/prettify/prettify.js"></script>
+  <script src="scripts/prettify/lang-css.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="styles/elv-jsdoc.css">
+  <link type="text/css" rel="stylesheet" href="styles/elv-prettify-jsdoc.css">
+</head>
+
+<body>
+  <div class="layout-container">
+    <nav class="nav-container">
+      <div class="header">
+        <a href="index.html">
+          <img class="logo" src="images/logo-dark.png" />
+        </a>
+        <div class="title">
+          Eluvio Javascript Client
+        </div>
+      </div>
+      <div class="nav-content">
+        <h3>Classes</h3><ul><li id="ElvClient-nav">
+          <div data-name="ElvClient" class="class-link-container"><a class="class-link">ElvClient</a></div><ul class='methods'><h4 class="methodGroupHeader">Constructor</h4><li data-type="method" id="ElvClient-ElvClient-nav"><a href="ElvClient.html" class="method-link">ElvClient</a></li><li data-type="method" id="ElvClient-Configuration-nav"><a href="ElvClient.html#.Configuration" class="method-link">Configuration</a></li><li data-type="method" id="ElvClient-FromConfigurationUrl-nav"><a href="ElvClient.html#.FromConfigurationUrl" class="method-link">FromConfigurationUrl</a></li><li data-type="method" id="ElvClient-FromNetworkName-nav"><a href="ElvClient.html#.FromNetworkName" class="method-link">FromNetworkName</a></li><h4 class="methodGroupHeader">Access Requests</h4><li data-type="method" id="ElvClient-ClearCache-nav"><a href="ElvClient.html#ClearCache" class="method-link">ClearCache</a></li><h4 class="methodGroupHeader">Authorization</h4><li data-type="method" id="ElvClient-CreateSignedToken-nav"><a href="ElvClient.html#CreateSignedToken" class="method-link">CreateSignedToken</a></li><li data-type="method" id="ElvClient-SetOauthToken-nav"><a href="ElvClient.html#SetOauthToken" class="method-link">SetOauthToken</a></li><li data-type="method" id="ElvClient-SetPolicyAuthorization-nav"><a href="ElvClient.html#SetPolicyAuthorization" class="method-link">SetPolicyAuthorization</a></li><li data-type="method" id="ElvClient-SetSignerFromOauthToken-nav"><a href="ElvClient.html#SetSignerFromOauthToken" class="method-link">SetSignerFromOauthToken</a></li><li data-type="method" id="ElvClient-SetStaticToken-nav"><a href="ElvClient.html#SetStaticToken" class="method-link">SetStaticToken</a></li><h4 class="methodGroupHeader">Miscellaneous</h4><li data-type="method" id="ElvClient-ToggleLogging-nav"><a href="ElvClient.html#ToggleLogging" class="method-link">ToggleLogging</a></li><h4 class="methodGroupHeader">Nodes</h4><li data-type="method" id="ElvClient-NetworkInfo-nav"><a href="ElvClient.html#NetworkInfo" class="method-link">NetworkInfo</a></li><li data-type="method" id="ElvClient-NodeId-nav"><a href="ElvClient.html#NodeId" class="method-link">NodeId</a></li><li data-type="method" id="ElvClient-Nodes-nav"><a href="ElvClient.html#Nodes" class="method-link">Nodes</a></li><li data-type="method" id="ElvClient-ResetRegion-nav"><a href="ElvClient.html#ResetRegion" class="method-link">ResetRegion</a></li><li data-type="method" id="ElvClient-SetNodes-nav"><a href="ElvClient.html#SetNodes" class="method-link">SetNodes</a></li><li data-type="method" id="ElvClient-UseRegion-nav"><a href="ElvClient.html#UseRegion" class="method-link">UseRegion</a></li><h4 class="methodGroupHeader">Signers</h4><li data-type="method" id="ElvClient-ClearSigner-nav"><a href="ElvClient.html#ClearSigner" class="method-link">ClearSigner</a></li><li data-type="method" id="ElvClient-CreateAccount-nav"><a href="ElvClient.html#CreateAccount" class="method-link">CreateAccount</a></li><li data-type="method" id="ElvClient-CurrentAccountAddress-nav"><a href="ElvClient.html#CurrentAccountAddress" class="method-link">CurrentAccountAddress</a></li><li data-type="method" id="ElvClient-GenerateWallet-nav"><a href="ElvClient.html#GenerateWallet" class="method-link">GenerateWallet</a></li><li data-type="method" id="ElvClient-SetRemoteSigner-nav"><a href="ElvClient.html#SetRemoteSigner" class="method-link">SetRemoteSigner</a></li><li data-type="method" id="ElvClient-SetSigner-nav"><a href="ElvClient.html#SetSigner" class="method-link">SetSigner</a></li><li data-type="method" id="ElvClient-SetSignerFromWeb3Provider-nav"><a href="ElvClient.html#SetSignerFromWeb3Provider" class="method-link">SetSignerFromWeb3Provider</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="ElvClient-ClearStaticToken-nav"><a href="ElvClient.html#ClearStaticToken" class="method-link">ClearStaticToken</a></li><li data-type="method" id="ElvClient-DecryptECIES-nav"><a href="ElvClient.html#DecryptECIES" class="method-link">DecryptECIES</a></li><li data-type="method" id="ElvClient-EncryptECIES-nav"><a href="ElvClient.html#EncryptECIES" class="method-link">EncryptECIES</a></li><li data-type="method" id="ElvClient-Request-nav"><a href="ElvClient.html#Request" class="method-link">Request</a></li><li data-type="method" id="ElvClient-Sign-nav"><a href="ElvClient.html#Sign" class="method-link">Sign</a></li></ul></li><li id="ElvWallet-nav">
+          <div data-name="ElvWallet" class="class-link-container"><a class="class-link">ElvWallet</a></div><ul class='methods'><h4 class="methodGroupHeader">Constructor</h4><li data-type="method" id="ElvWallet-ElvWallet-nav"><a href="ElvWallet.html" class="method-link">ElvWallet</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="ElvWallet-AddAccount-nav"><a href="ElvWallet.html#AddAccount" class="method-link">AddAccount</a></li><li data-type="method" id="ElvWallet-AddAccountFromEncryptedPK-nav"><a href="ElvWallet.html#AddAccountFromEncryptedPK" class="method-link">AddAccountFromEncryptedPK</a></li><li data-type="method" id="ElvWallet-AddAccountFromMnemonic-nav"><a href="ElvWallet.html#AddAccountFromMnemonic" class="method-link">AddAccountFromMnemonic</a></li><li data-type="method" id="ElvWallet-GenerateEncryptedPrivateKey-nav"><a href="ElvWallet.html#GenerateEncryptedPrivateKey" class="method-link">GenerateEncryptedPrivateKey</a></li><li data-type="method" id="ElvWallet-GenerateMnemonic-nav"><a href="ElvWallet.html#GenerateMnemonic" class="method-link">GenerateMnemonic</a></li><li data-type="method" id="ElvWallet-GetAccount-nav"><a href="ElvWallet.html#GetAccount" class="method-link">GetAccount</a></li><li data-type="method" id="ElvWallet-GetAccountBalance-nav"><a href="ElvWallet.html#GetAccountBalance" class="method-link">GetAccountBalance</a></li><li data-type="method" id="ElvWallet-RemoveAccount-nav"><a href="ElvWallet.html#RemoveAccount" class="method-link">RemoveAccount</a></li></ul></li><li id="FrameClient-nav">
+          <div data-name="FrameClient" class="class-link-container"><a class="class-link">FrameClient</a></div><ul class='methods'><h4 class="methodGroupHeader">Constructor</h4><li data-type="method" id="FrameClient-FrameClient-nav"><a href="FrameClient.html" class="method-link">FrameClient</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="FrameClient-AllowedMethods-nav"><a href="FrameClient.html#AllowedMethods" class="method-link">AllowedMethods</a></li><li data-type="method" id="FrameClient-PassRequest-nav"><a href="FrameClient.html#PassRequest" class="method-link">PassRequest</a></li></ul></li><li id="PermissionsClient-nav">
+          <div data-name="PermissionsClient" class="class-link-container"><a class="class-link">PermissionsClient</a></div><ul class='methods'><h4 class="methodGroupHeader">Constructor</h4><li data-type="method" id="PermissionsClient-PermissionsClient-nav"><a href="PermissionsClient.html" class="method-link">PermissionsClient</a></li><h4 class="methodGroupHeader">OfflineDraft</h4><li data-type="method" id="PermissionsClient-CloseOfflineDraft-nav"><a href="PermissionsClient.html#CloseOfflineDraft" class="method-link">CloseOfflineDraft</a></li><li data-type="method" id="PermissionsClient-OpenOfflineDraft-nav"><a href="PermissionsClient.html#OpenOfflineDraft" class="method-link">OpenOfflineDraft</a></li><h4 class="methodGroupHeader">Permissions</h4><li data-type="method" id="PermissionsClient-ItemPermissions-nav"><a href="PermissionsClient.html#ItemPermissions" class="method-link">ItemPermissions</a></li><li data-type="method" id="PermissionsClient-RemovePermission-nav"><a href="PermissionsClient.html#RemovePermission" class="method-link">RemovePermission</a></li><li data-type="method" id="PermissionsClient-RemoveSubjectPermissions-nav"><a href="PermissionsClient.html#RemoveSubjectPermissions" class="method-link">RemoveSubjectPermissions</a></li><li data-type="method" id="PermissionsClient-SetPermission-nav"><a href="PermissionsClient.html#SetPermission" class="method-link">SetPermission</a></li><li data-type="method" id="PermissionsClient-SubjectPermissions-nav"><a href="PermissionsClient.html#SubjectPermissions" class="method-link">SubjectPermissions</a></li><h4 class="methodGroupHeader">Policies</h4><li data-type="method" id="PermissionsClient-CreateItemPolicy-nav"><a href="PermissionsClient.html#CreateItemPolicy" class="method-link">CreateItemPolicy</a></li><li data-type="method" id="PermissionsClient-ItemPolicy-nav"><a href="PermissionsClient.html#ItemPolicy" class="method-link">ItemPolicy</a></li><li data-type="method" id="PermissionsClient-PolicyItems-nav"><a href="PermissionsClient.html#PolicyItems" class="method-link">PolicyItems</a></li><li data-type="method" id="PermissionsClient-RemoveItemPolicy-nav"><a href="PermissionsClient.html#RemoveItemPolicy" class="method-link">RemoveItemPolicy</a></li><h4 class="methodGroupHeader">Profiles</h4><li data-type="method" id="PermissionsClient-ItemProfiles-nav"><a href="PermissionsClient.html#ItemProfiles" class="method-link">ItemProfiles</a></li><li data-type="method" id="PermissionsClient-RemoveProfile-nav"><a href="PermissionsClient.html#RemoveProfile" class="method-link">RemoveProfile</a></li><li data-type="method" id="PermissionsClient-SetProfile-nav"><a href="PermissionsClient.html#SetProfile" class="method-link">SetProfile</a></li></ul></li><li id="UserProfileClient-nav">
+          <div data-name="UserProfileClient" class="class-link-container"><a class="class-link">UserProfileClient</a></div><ul class='methods'><h4 class="methodGroupHeader">Constructor</h4><li data-type="method" id="UserProfileClient-UserProfileClient-nav"><a href="UserProfileClient.html" class="method-link">UserProfileClient</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="UserProfileClient-AccessLevel-nav"><a href="UserProfileClient.html#AccessLevel" class="method-link">AccessLevel</a></li><li data-type="method" id="UserProfileClient-CollectedTags-nav"><a href="UserProfileClient.html#CollectedTags" class="method-link">CollectedTags</a></li><li data-type="method" id="UserProfileClient-DeleteUserMetadata-nav"><a href="UserProfileClient.html#DeleteUserMetadata" class="method-link">DeleteUserMetadata</a></li><li data-type="method" id="UserProfileClient-MergeUserMetadata-nav"><a href="UserProfileClient.html#MergeUserMetadata" class="method-link">MergeUserMetadata</a></li><li data-type="method" id="UserProfileClient-PublicUserMetadata-nav"><a href="UserProfileClient.html#PublicUserMetadata" class="method-link">PublicUserMetadata</a></li><li data-type="method" id="UserProfileClient-ReplaceUserMetadata-nav"><a href="UserProfileClient.html#ReplaceUserMetadata" class="method-link">ReplaceUserMetadata</a></li><li data-type="method" id="UserProfileClient-SetAccessLevel-nav"><a href="UserProfileClient.html#SetAccessLevel" class="method-link">SetAccessLevel</a></li><li data-type="method" id="UserProfileClient-SetTenantId-nav"><a href="UserProfileClient.html#SetTenantId" class="method-link">SetTenantId</a></li><li data-type="method" id="UserProfileClient-SetUserProfileImage-nav"><a href="UserProfileClient.html#SetUserProfileImage" class="method-link">SetUserProfileImage</a></li><li data-type="method" id="UserProfileClient-TenantId-nav"><a href="UserProfileClient.html#TenantId" class="method-link">TenantId</a></li><li data-type="method" id="UserProfileClient-UserMetadata-nav"><a href="UserProfileClient.html#UserMetadata" class="method-link">UserMetadata</a></li><li data-type="method" id="UserProfileClient-UserProfileImage-nav"><a href="UserProfileClient.html#UserProfileImage" class="method-link">UserProfileImage</a></li><li data-type="method" id="UserProfileClient-UserWalletAddress-nav"><a href="UserProfileClient.html#UserWalletAddress" class="method-link">UserWalletAddress</a></li><li data-type="method" id="UserProfileClient-UserWalletObjectInfo-nav"><a href="UserProfileClient.html#UserWalletObjectInfo" class="method-link">UserWalletObjectInfo</a></li><li data-type="method" id="UserProfileClient-WalletAddress-nav"><a href="UserProfileClient.html#WalletAddress" class="method-link">WalletAddress</a></li></ul></li></ul><h3>Modules</h3><ul><li id="ElvClient_ABRPublishing-nav">
+          <div data-name="ElvClient/ABRPublishing" class="class-link-container"><a class="class-link">ElvClient/ABRPublishing</a></div><ul class='methods'><li data-type="method" id="ElvClient_ABRPublishing-ElvClient/ABRPublishing-nav"><a href="module-ElvClient_ABRPublishing.html" class="method-link">ElvClient/ABRPublishing</a></li><h4 class="methodGroupHeader">ABR Publishing</h4><li data-type="method" id="ElvClient_ABRPublishing-CreateABRMezzanine-nav"><a href="module-ElvClient_ABRPublishing.html#.CreateABRMezzanine" class="method-link">CreateABRMezzanine</a></li><li data-type="method" id="ElvClient_ABRPublishing-CreateProductionMaster-nav"><a href="module-ElvClient_ABRPublishing.html#.CreateProductionMaster" class="method-link">CreateProductionMaster</a></li><li data-type="method" id="ElvClient_ABRPublishing-FinalizeABRMezzanine-nav"><a href="module-ElvClient_ABRPublishing.html#.FinalizeABRMezzanine" class="method-link">FinalizeABRMezzanine</a></li><li data-type="method" id="ElvClient_ABRPublishing-LROStatus-nav"><a href="module-ElvClient_ABRPublishing.html#.LROStatus" class="method-link">LROStatus</a></li><li data-type="method" id="ElvClient_ABRPublishing-StartABRMezzanineJobs-nav"><a href="module-ElvClient_ABRPublishing.html#.StartABRMezzanineJobs" class="method-link">StartABRMezzanineJobs</a></li></ul></li><li id="ElvClient_AccessGroups-nav">
+          <div data-name="ElvClient/AccessGroups" class="class-link-container"><a class="class-link">ElvClient/AccessGroups</a></div><ul class='methods'><li data-type="method" id="ElvClient_AccessGroups-ElvClient/AccessGroups-nav"><a href="module-ElvClient_AccessGroups.html" class="method-link">ElvClient/AccessGroups</a></li><h4 class="methodGroupHeader">Access Groups</h4><li data-type="method" id="ElvClient_AccessGroups-AccessGroupManagers-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AccessGroupManagers" class="method-link">AccessGroupManagers</a></li><li data-type="method" id="ElvClient_AccessGroups-AccessGroupMembers-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AccessGroupMembers" class="method-link">AccessGroupMembers</a></li><li data-type="method" id="ElvClient_AccessGroups-AccessGroupOwner-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AccessGroupOwner" class="method-link">AccessGroupOwner</a></li><li data-type="method" id="ElvClient_AccessGroups-AddAccessGroupManager-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AddAccessGroupManager" class="method-link">AddAccessGroupManager</a></li><li data-type="method" id="ElvClient_AccessGroups-AddAccessGroupMember-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AddAccessGroupMember" class="method-link">AddAccessGroupMember</a></li><li data-type="method" id="ElvClient_AccessGroups-CreateAccessGroup-nav"><a href="module-ElvClient_AccessGroups.html#.exports.CreateAccessGroup" class="method-link">CreateAccessGroup</a></li><li data-type="method" id="ElvClient_AccessGroups-DeleteAccessGroup-nav"><a href="module-ElvClient_AccessGroups.html#.exports.DeleteAccessGroup" class="method-link">DeleteAccessGroup</a></li><li data-type="method" id="ElvClient_AccessGroups-RemoveAccessGroupManager-nav"><a href="module-ElvClient_AccessGroups.html#.exports.RemoveAccessGroupManager" class="method-link">RemoveAccessGroupManager</a></li><li data-type="method" id="ElvClient_AccessGroups-RemoveAccessGroupMember-nav"><a href="module-ElvClient_AccessGroups.html#.exports.RemoveAccessGroupMember" class="method-link">RemoveAccessGroupMember</a></li><li data-type="method" id="ElvClient_AccessGroups-ListAccessGroups-nav"><a href="module-ElvClient_AccessGroups.html#.ListAccessGroups" class="method-link">ListAccessGroups</a></li><h4 class="methodGroupHeader">Library Access Groups</h4><li data-type="method" id="ElvClient_AccessGroups-AddContentLibraryGroup-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AddContentLibraryGroup" class="method-link">AddContentLibraryGroup</a></li><li data-type="method" id="ElvClient_AccessGroups-ContentLibraryGroupPermissions-nav"><a href="module-ElvClient_AccessGroups.html#.exports.ContentLibraryGroupPermissions" class="method-link">ContentLibraryGroupPermissions</a></li><li data-type="method" id="ElvClient_AccessGroups-RemoveContentLibraryGroup-nav"><a href="module-ElvClient_AccessGroups.html#.exports.RemoveContentLibraryGroup" class="method-link">RemoveContentLibraryGroup</a></li><h4 class="methodGroupHeader">Object Access Groups</h4><li data-type="method" id="ElvClient_AccessGroups-AddContentObjectGroupPermission-nav"><a href="module-ElvClient_AccessGroups.html#.exports.AddContentObjectGroupPermission" class="method-link">AddContentObjectGroupPermission</a></li><li data-type="method" id="ElvClient_AccessGroups-ContentObjectGroupPermissions-nav"><a href="module-ElvClient_AccessGroups.html#.exports.ContentObjectGroupPermissions" class="method-link">ContentObjectGroupPermissions</a></li><li data-type="method" id="ElvClient_AccessGroups-RemoveContentObjectGroupPermission-nav"><a href="module-ElvClient_AccessGroups.html#.exports.RemoveContentObjectGroupPermission" class="method-link">RemoveContentObjectGroupPermission</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="ElvClient_AccessGroups-LinkAccessGroupToOauth-nav"><a href="module-ElvClient_AccessGroups.html#.LinkAccessGroupToOauth" class="method-link">LinkAccessGroupToOauth</a></li><li data-type="method" id="ElvClient_AccessGroups-UnlinkAccessGroupFromOauth-nav"><a href="module-ElvClient_AccessGroups.html#.UnlinkAccessGroupFromOauth" class="method-link">UnlinkAccessGroupFromOauth</a></li></ul></li><li id="ElvClient_ContentAccess-nav">
+          <div data-name="ElvClient/ContentAccess" class="class-link-container"><a class="class-link">ElvClient/ContentAccess</a></div><ul class='methods'><li data-type="method" id="ElvClient_ContentAccess-ElvClient/ContentAccess-nav"><a href="module-ElvClient_ContentAccess.html" class="method-link">ElvClient/ContentAccess</a></li><h4 class="methodGroupHeader">Access Requests</h4><li data-type="method" id="ElvClient_ContentAccess-AccessInfo-nav"><a href="module-ElvClient_ContentAccess.html#.AccessInfo" class="method-link">AccessInfo</a></li><li data-type="method" id="ElvClient_ContentAccess-AccessRequest-nav"><a href="module-ElvClient_ContentAccess.html#.AccessRequest" class="method-link">AccessRequest</a></li><li data-type="method" id="ElvClient_ContentAccess-AccessType-nav"><a href="module-ElvClient_ContentAccess.html#.AccessType" class="method-link">AccessType</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectAccessComplete-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectAccessComplete" class="method-link">ContentObjectAccessComplete</a></li><li data-type="method" id="ElvClient_ContentAccess-FinalizeStateChannelAccess-nav"><a href="module-ElvClient_ContentAccess.html#.FinalizeStateChannelAccess" class="method-link">FinalizeStateChannelAccess</a></li><li data-type="method" id="ElvClient_ContentAccess-GenerateStateChannelToken-nav"><a href="module-ElvClient_ContentAccess.html#.GenerateStateChannelToken" class="method-link">GenerateStateChannelToken</a></li><li data-type="method" id="ElvClient_ContentAccess-SetAuthContext-nav"><a href="module-ElvClient_ContentAccess.html#.SetAuthContext" class="method-link">SetAuthContext</a></li><h4 class="methodGroupHeader">Collections</h4><li data-type="method" id="ElvClient_ContentAccess-Collection-nav"><a href="module-ElvClient_ContentAccess.html#.Collection" class="method-link">Collection</a></li><h4 class="methodGroupHeader">Content Libraries</h4><li data-type="method" id="ElvClient_ContentAccess-ContentLibraries-nav"><a href="module-ElvClient_ContentAccess.html#.ContentLibraries" class="method-link">ContentLibraries</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentLibrary-nav"><a href="module-ElvClient_ContentAccess.html#.ContentLibrary" class="method-link">ContentLibrary</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentLibraryOwner-nav"><a href="module-ElvClient_ContentAccess.html#.ContentLibraryOwner" class="method-link">ContentLibraryOwner</a></li><li data-type="method" id="ElvClient_ContentAccess-LibraryContentTypes-nav"><a href="module-ElvClient_ContentAccess.html#.LibraryContentTypes" class="method-link">LibraryContentTypes</a></li><h4 class="methodGroupHeader">Content Objects</h4><li data-type="method" id="ElvClient_ContentAccess-AssetMetadata-nav"><a href="module-ElvClient_ContentAccess.html#.AssetMetadata" class="method-link">AssetMetadata</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObject-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObject" class="method-link">ContentObject</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectLibraryId-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectLibraryId" class="method-link">ContentObjectLibraryId</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectOwner-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectOwner" class="method-link">ContentObjectOwner</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjects-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjects" class="method-link">ContentObjects</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectTenantId-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectTenantId" class="method-link">ContentObjectTenantId</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectVersions-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectVersions" class="method-link">ContentObjectVersions</a></li><li data-type="method" id="ElvClient_ContentAccess-LatestVersionHash-nav"><a href="module-ElvClient_ContentAccess.html#.LatestVersionHash" class="method-link">LatestVersionHash</a></li><li data-type="method" id="ElvClient_ContentAccess-Permission-nav"><a href="module-ElvClient_ContentAccess.html#.Permission" class="method-link">Permission</a></li><li data-type="method" id="ElvClient_ContentAccess-Proofs-nav"><a href="module-ElvClient_ContentAccess.html#.Proofs" class="method-link">Proofs</a></li><li data-type="method" id="ElvClient_ContentAccess-QParts-nav"><a href="module-ElvClient_ContentAccess.html#.QParts" class="method-link">QParts</a></li><li data-type="method" id="ElvClient_ContentAccess-VerifyContentObject-nav"><a href="module-ElvClient_ContentAccess.html#.VerifyContentObject" class="method-link">VerifyContentObject</a></li><h4 class="methodGroupHeader">Content Space</h4><li data-type="method" id="ElvClient_ContentAccess-ContentSpaceId-nav"><a href="module-ElvClient_ContentAccess.html#.ContentSpaceId" class="method-link">ContentSpaceId</a></li><li data-type="method" id="ElvClient_ContentAccess-DefaultKMSAddress-nav"><a href="module-ElvClient_ContentAccess.html#.DefaultKMSAddress" class="method-link">DefaultKMSAddress</a></li><h4 class="methodGroupHeader">Content Types</h4><li data-type="method" id="ElvClient_ContentAccess-ContentType-nav"><a href="module-ElvClient_ContentAccess.html#.ContentType" class="method-link">ContentType</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentTypeOwner-nav"><a href="module-ElvClient_ContentAccess.html#.ContentTypeOwner" class="method-link">ContentTypeOwner</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentTypes-nav"><a href="module-ElvClient_ContentAccess.html#.ContentTypes" class="method-link">ContentTypes</a></li><h4 class="methodGroupHeader">Encryption</h4><li data-type="method" id="ElvClient_ContentAccess-Decrypt-nav"><a href="module-ElvClient_ContentAccess.html#.Decrypt" class="method-link">Decrypt</a></li><li data-type="method" id="ElvClient_ContentAccess-Encrypt-nav"><a href="module-ElvClient_ContentAccess.html#.Encrypt" class="method-link">Encrypt</a></li><li data-type="method" id="ElvClient_ContentAccess-EncryptionConk-nav"><a href="module-ElvClient_ContentAccess.html#.EncryptionConk" class="method-link">EncryptionConk</a></li><h4 class="methodGroupHeader">Links</h4><li data-type="method" id="ElvClient_ContentAccess-ContentObjectGraph-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectGraph" class="method-link">ContentObjectGraph</a></li><li data-type="method" id="ElvClient_ContentAccess-LinkData-nav"><a href="module-ElvClient_ContentAccess.html#.LinkData" class="method-link">LinkData</a></li><li data-type="method" id="ElvClient_ContentAccess-LinkTarget-nav"><a href="module-ElvClient_ContentAccess.html#.LinkTarget" class="method-link">LinkTarget</a></li><li data-type="method" id="ElvClient_ContentAccess-LinkUrl-nav"><a href="module-ElvClient_ContentAccess.html#.LinkUrl" class="method-link">LinkUrl</a></li><h4 class="methodGroupHeader">Media</h4><li data-type="method" id="ElvClient_ContentAccess-AvailableDRMs-nav"><a href="module-ElvClient_ContentAccess.html#.AvailableDRMs" class="method-link">AvailableDRMs</a></li><li data-type="method" id="ElvClient_ContentAccess-AvailableOfferings-nav"><a href="module-ElvClient_ContentAccess.html#.AvailableOfferings" class="method-link">AvailableOfferings</a></li><li data-type="method" id="ElvClient_ContentAccess-BitmovinPlayoutOptions-nav"><a href="module-ElvClient_ContentAccess.html#.BitmovinPlayoutOptions" class="method-link">BitmovinPlayoutOptions</a></li><li data-type="method" id="ElvClient_ContentAccess-PlayoutOptions-nav"><a href="module-ElvClient_ContentAccess.html#.PlayoutOptions" class="method-link">PlayoutOptions</a></li><h4 class="methodGroupHeader">Metadata</h4><li data-type="method" id="ElvClient_ContentAccess-ContentObjectMetadata-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectMetadata" class="method-link">ContentObjectMetadata</a></li><h4 class="methodGroupHeader">URL Generation</h4><li data-type="method" id="ElvClient_ContentAccess-CallBitcodeMethod-nav"><a href="module-ElvClient_ContentAccess.html#.CallBitcodeMethod" class="method-link">CallBitcodeMethod</a></li><li data-type="method" id="ElvClient_ContentAccess-ContentObjectImageUrl-nav"><a href="module-ElvClient_ContentAccess.html#.ContentObjectImageUrl" class="method-link">ContentObjectImageUrl</a></li><li data-type="method" id="ElvClient_ContentAccess-FabricUrl-nav"><a href="module-ElvClient_ContentAccess.html#.FabricUrl" class="method-link">FabricUrl</a></li><li data-type="method" id="ElvClient_ContentAccess-FileUrl-nav"><a href="module-ElvClient_ContentAccess.html#.FileUrl" class="method-link">FileUrl</a></li><li data-type="method" id="ElvClient_ContentAccess-PublicRep-nav"><a href="module-ElvClient_ContentAccess.html#.PublicRep" class="method-link">PublicRep</a></li><li data-type="method" id="ElvClient_ContentAccess-Rep-nav"><a href="module-ElvClient_ContentAccess.html#.Rep" class="method-link">Rep</a></li></ul></li><li id="ElvClient_ContentManagement-nav">
+          <div data-name="ElvClient/ContentManagement" class="class-link-container"><a class="class-link">ElvClient/ContentManagement</a></div><ul class='methods'><li data-type="method" id="ElvClient_ContentManagement-ElvClient/ContentManagement-nav"><a href="module-ElvClient_ContentManagement.html" class="method-link">ElvClient/ContentManagement</a></li><h4 class="methodGroupHeader">Access Requests</h4><li data-type="method" id="ElvClient_ContentManagement-SetAccessCharge-nav"><a href="module-ElvClient_ContentManagement.html#.SetAccessCharge" class="method-link">SetAccessCharge</a></li><h4 class="methodGroupHeader">Auth Policies</h4><li data-type="method" id="ElvClient_ContentManagement-InitializeAuthPolicy-nav"><a href="module-ElvClient_ContentManagement.html#.InitializeAuthPolicy" class="method-link">InitializeAuthPolicy</a></li><li data-type="method" id="ElvClient_ContentManagement-SetAuthPolicy-nav"><a href="module-ElvClient_ContentManagement.html#.SetAuthPolicy" class="method-link">SetAuthPolicy</a></li><h4 class="methodGroupHeader">Content Libraries</h4><li data-type="method" id="ElvClient_ContentManagement-AddLibraryContentType-nav"><a href="module-ElvClient_ContentManagement.html#.AddLibraryContentType" class="method-link">AddLibraryContentType</a></li><li data-type="method" id="ElvClient_ContentManagement-CreateContentLibrary-nav"><a href="module-ElvClient_ContentManagement.html#.CreateContentLibrary" class="method-link">CreateContentLibrary</a></li><li data-type="method" id="ElvClient_ContentManagement-DeleteContentLibrary-nav"><a href="module-ElvClient_ContentManagement.html#.DeleteContentLibrary" class="method-link">DeleteContentLibrary</a></li><li data-type="method" id="ElvClient_ContentManagement-RemoveLibraryContentType-nav"><a href="module-ElvClient_ContentManagement.html#.RemoveLibraryContentType" class="method-link">RemoveLibraryContentType</a></li><li data-type="method" id="ElvClient_ContentManagement-SetContentLibraryImage-nav"><a href="module-ElvClient_ContentManagement.html#.SetContentLibraryImage" class="method-link">SetContentLibraryImage</a></li><h4 class="methodGroupHeader">Content Objects</h4><li data-type="method" id="ElvClient_ContentManagement-CopyContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.CopyContentObject" class="method-link">CopyContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-CreateAndFinalizeContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.CreateAndFinalizeContentObject" class="method-link">CreateAndFinalizeContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-CreateContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.CreateContentObject" class="method-link">CreateContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-DeleteContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.DeleteContentObject" class="method-link">DeleteContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-DeleteContentVersion-nav"><a href="module-ElvClient_ContentManagement.html#.DeleteContentVersion" class="method-link">DeleteContentVersion</a></li><li data-type="method" id="ElvClient_ContentManagement-EditAndFinalizeContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.EditAndFinalizeContentObject" class="method-link">EditAndFinalizeContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-EditContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.EditContentObject" class="method-link">EditContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-FinalizeContentObject-nav"><a href="module-ElvClient_ContentManagement.html#.FinalizeContentObject" class="method-link">FinalizeContentObject</a></li><li data-type="method" id="ElvClient_ContentManagement-PublishContentVersion-nav"><a href="module-ElvClient_ContentManagement.html#.PublishContentVersion" class="method-link">PublishContentVersion</a></li><li data-type="method" id="ElvClient_ContentManagement-SetContentObjectImage-nav"><a href="module-ElvClient_ContentManagement.html#.SetContentObjectImage" class="method-link">SetContentObjectImage</a></li><li data-type="method" id="ElvClient_ContentManagement-SetPermission-nav"><a href="module-ElvClient_ContentManagement.html#.SetPermission" class="method-link">SetPermission</a></li><h4 class="methodGroupHeader">Content Types</h4><li data-type="method" id="ElvClient_ContentManagement-CreateContentType-nav"><a href="module-ElvClient_ContentManagement.html#.CreateContentType" class="method-link">CreateContentType</a></li><h4 class="methodGroupHeader">Links</h4><li data-type="method" id="ElvClient_ContentManagement-CreateLinks-nav"><a href="module-ElvClient_ContentManagement.html#.CreateLinks" class="method-link">CreateLinks</a></li><li data-type="method" id="ElvClient_ContentManagement-UpdateContentObjectGraph-nav"><a href="module-ElvClient_ContentManagement.html#.UpdateContentObjectGraph" class="method-link">UpdateContentObjectGraph</a></li><h4 class="methodGroupHeader">Metadata</h4><li data-type="method" id="ElvClient_ContentManagement-DeleteMetadata-nav"><a href="module-ElvClient_ContentManagement.html#.DeleteMetadata" class="method-link">DeleteMetadata</a></li><li data-type="method" id="ElvClient_ContentManagement-MergeMetadata-nav"><a href="module-ElvClient_ContentManagement.html#.MergeMetadata" class="method-link">MergeMetadata</a></li><li data-type="method" id="ElvClient_ContentManagement-ReplaceMetadata-nav"><a href="module-ElvClient_ContentManagement.html#.ReplaceMetadata" class="method-link">ReplaceMetadata</a></li></ul></li><li id="ElvClient_Contracts-nav">
+          <div data-name="ElvClient/Contracts" class="class-link-container"><a class="class-link">ElvClient/Contracts</a></div><ul class='methods'><li data-type="method" id="ElvClient_Contracts-ElvClient/Contracts-nav"><a href="module-ElvClient_Contracts.html" class="method-link">ElvClient/Contracts</a></li><h4 class="methodGroupHeader">Blockchain</h4><li data-type="method" id="ElvClient_Contracts-BlockNumber-nav"><a href="module-ElvClient_Contracts.html#.BlockNumber" class="method-link">BlockNumber</a></li><li data-type="method" id="ElvClient_Contracts-Events-nav"><a href="module-ElvClient_Contracts.html#.Events" class="method-link">Events</a></li><li data-type="method" id="ElvClient_Contracts-GetBalance-nav"><a href="module-ElvClient_Contracts.html#.GetBalance" class="method-link">GetBalance</a></li><li data-type="method" id="ElvClient_Contracts-SendFunds-nav"><a href="module-ElvClient_Contracts.html#.SendFunds" class="method-link">SendFunds</a></li><h4 class="methodGroupHeader">Contracts</h4><li data-type="method" id="ElvClient_Contracts-CallContractMethod-nav"><a href="module-ElvClient_Contracts.html#.CallContractMethod" class="method-link">CallContractMethod</a></li><li data-type="method" id="ElvClient_Contracts-CallContractMethodAndWait-nav"><a href="module-ElvClient_Contracts.html#.CallContractMethodAndWait" class="method-link">CallContractMethodAndWait</a></li><li data-type="method" id="ElvClient_Contracts-ContractAbi-nav"><a href="module-ElvClient_Contracts.html#.ContractAbi" class="method-link">ContractAbi</a></li><li data-type="method" id="ElvClient_Contracts-ContractEvents-nav"><a href="module-ElvClient_Contracts.html#.ContractEvents" class="method-link">ContractEvents</a></li><li data-type="method" id="ElvClient_Contracts-ContractMetadata-nav"><a href="module-ElvClient_Contracts.html#.ContractMetadata" class="method-link">ContractMetadata</a></li><li data-type="method" id="ElvClient_Contracts-ContractName-nav"><a href="module-ElvClient_Contracts.html#.ContractName" class="method-link">ContractName</a></li><li data-type="method" id="ElvClient_Contracts-CustomContractAddress-nav"><a href="module-ElvClient_Contracts.html#.CustomContractAddress" class="method-link">CustomContractAddress</a></li><li data-type="method" id="ElvClient_Contracts-DeployContract-nav"><a href="module-ElvClient_Contracts.html#.DeployContract" class="method-link">DeployContract</a></li><li data-type="method" id="ElvClient_Contracts-ExtractEventFromLogs-nav"><a href="module-ElvClient_Contracts.html#.ExtractEventFromLogs" class="method-link">ExtractEventFromLogs</a></li><li data-type="method" id="ElvClient_Contracts-ExtractValueFromEvent-nav"><a href="module-ElvClient_Contracts.html#.ExtractValueFromEvent" class="method-link">ExtractValueFromEvent</a></li><li data-type="method" id="ElvClient_Contracts-FormatContractArguments-nav"><a href="module-ElvClient_Contracts.html#.FormatContractArguments" class="method-link">FormatContractArguments</a></li><li data-type="method" id="ElvClient_Contracts-MergeContractMetadata-nav"><a href="module-ElvClient_Contracts.html#.MergeContractMetadata" class="method-link">MergeContractMetadata</a></li><li data-type="method" id="ElvClient_Contracts-ReplaceContractMetadata-nav"><a href="module-ElvClient_Contracts.html#.ReplaceContractMetadata" class="method-link">ReplaceContractMetadata</a></li><li data-type="method" id="ElvClient_Contracts-SetCustomContentContract-nav"><a href="module-ElvClient_Contracts.html#.SetCustomContentContract" class="method-link">SetCustomContentContract</a></li></ul></li><li id="ElvClient_Files+Parts-nav">
+          <div data-name="ElvClient/Files+Parts" class="class-link-container"><a class="class-link">ElvClient/Files+Parts</a></div><ul class='methods'><li data-type="method" id="ElvClient_Files+Parts-ElvClient/Files+Parts-nav"><a href="module-ElvClient_Files+Parts.html" class="method-link">ElvClient/Files+Parts</a></li><h4 class="methodGroupHeader">Files</h4><li data-type="method" id="ElvClient_Files+Parts-CreateFileDirectories-nav"><a href="module-ElvClient_Files+Parts.html#.exports.CreateFileDirectories" class="method-link">CreateFileDirectories</a></li><li data-type="method" id="ElvClient_Files+Parts-DeleteFiles-nav"><a href="module-ElvClient_Files+Parts.html#.exports.DeleteFiles" class="method-link">DeleteFiles</a></li><li data-type="method" id="ElvClient_Files+Parts-DownloadFile-nav"><a href="module-ElvClient_Files+Parts.html#.exports.DownloadFile" class="method-link">DownloadFile</a></li><li data-type="method" id="ElvClient_Files+Parts-ListFiles-nav"><a href="module-ElvClient_Files+Parts.html#.exports.ListFiles" class="method-link">ListFiles</a></li><li data-type="method" id="ElvClient_Files+Parts-UploadFiles-nav"><a href="module-ElvClient_Files+Parts.html#.exports.UploadFiles" class="method-link">UploadFiles</a></li><li data-type="method" id="ElvClient_Files+Parts-UploadFilesFromS3-nav"><a href="module-ElvClient_Files+Parts.html#.exports.UploadFilesFromS3" class="method-link">UploadFilesFromS3</a></li><h4 class="methodGroupHeader">Parts</h4><li data-type="method" id="ElvClient_Files+Parts-ContentPart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.ContentPart" class="method-link">ContentPart</a></li><li data-type="method" id="ElvClient_Files+Parts-ContentParts-nav"><a href="module-ElvClient_Files+Parts.html#.exports.ContentParts" class="method-link">ContentParts</a></li><li data-type="method" id="ElvClient_Files+Parts-CreatePart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.CreatePart" class="method-link">CreatePart</a></li><li data-type="method" id="ElvClient_Files+Parts-DeletePart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.DeletePart" class="method-link">DeletePart</a></li><li data-type="method" id="ElvClient_Files+Parts-DownloadPart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.DownloadPart" class="method-link">DownloadPart</a></li><li data-type="method" id="ElvClient_Files+Parts-FinalizePart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.FinalizePart" class="method-link">FinalizePart</a></li><li data-type="method" id="ElvClient_Files+Parts-UploadPart-nav"><a href="module-ElvClient_Files+Parts.html#.exports.UploadPart" class="method-link">UploadPart</a></li><li data-type="method" id="ElvClient_Files+Parts-UploadPartChunk-nav"><a href="module-ElvClient_Files+Parts.html#.exports.UploadPartChunk" class="method-link">UploadPartChunk</a></li></ul></li><li id="ElvClient_NFT-nav">
+          <div data-name="ElvClient/NFT" class="class-link-container"><a class="class-link">ElvClient/NFT</a></div><ul class='methods'><li data-type="method" id="ElvClient_NFT-ElvClient/NFT-nav"><a href="module-ElvClient_NFT.html" class="method-link">ElvClient/NFT</a></li><h4 class="methodGroupHeader">Minting</h4><li data-type="method" id="ElvClient_NFT-MintNFT-nav"><a href="module-ElvClient_NFT.html#.MintNFT" class="method-link">MintNFT</a></li><h4 class="methodGroupHeader">Transactions</h4><li data-type="method" id="ElvClient_NFT-CollectionTransactions-nav"><a href="module-ElvClient_NFT.html#.CollectionTransactions" class="method-link">CollectionTransactions</a></li></ul></li><li id="ElvClient_NTP-nav">
+          <div data-name="ElvClient/NTP" class="class-link-container"><a class="class-link">ElvClient/NTP</a></div><ul class='methods'><li data-type="method" id="ElvClient_NTP-ElvClient/NTP-nav"><a href="module-ElvClient_NTP.html" class="method-link">ElvClient/NTP</a></li><h4 class="methodGroupHeader">NTP Instances</h4><li data-type="method" id="ElvClient_NTP-CreateNTPInstance-nav"><a href="module-ElvClient_NTP.html#.CreateNTPInstance" class="method-link">CreateNTPInstance</a></li><li data-type="method" id="ElvClient_NTP-DeleteNTPInstance-nav"><a href="module-ElvClient_NTP.html#.DeleteNTPInstance" class="method-link">DeleteNTPInstance</a></li><li data-type="method" id="ElvClient_NTP-ListNTPInstances-nav"><a href="module-ElvClient_NTP.html#.ListNTPInstances" class="method-link">ListNTPInstances</a></li><li data-type="method" id="ElvClient_NTP-NTPInstance-nav"><a href="module-ElvClient_NTP.html#.NTPInstance" class="method-link">NTPInstance</a></li><li data-type="method" id="ElvClient_NTP-SuspendNTPInstance-nav"><a href="module-ElvClient_NTP.html#.SuspendNTPInstance" class="method-link">SuspendNTPInstance</a></li><li data-type="method" id="ElvClient_NTP-UpdateNTPInstance-nav"><a href="module-ElvClient_NTP.html#.UpdateNTPInstance" class="method-link">UpdateNTPInstance</a></li><h4 class="methodGroupHeader">Tickets</h4><li data-type="method" id="ElvClient_NTP-IssueNTPCode-nav"><a href="module-ElvClient_NTP.html#.IssueNTPCode" class="method-link">IssueNTPCode</a></li><li data-type="method" id="ElvClient_NTP-IssueSignedNTPCode-nav"><a href="module-ElvClient_NTP.html#.IssueSignedNTPCode" class="method-link">IssueSignedNTPCode</a></li><li data-type="method" id="ElvClient_NTP-RedeemCode-nav"><a href="module-ElvClient_NTP.html#.RedeemCode" class="method-link">RedeemCode</a></li></ul></li></ul><h3>Namespaces</h3><ul><li id="Crypto-nav">
+          <div data-name="Crypto" class="class-link-container"><a class="class-link">Crypto</a></div><ul class='methods'><li data-type="method" id="Crypto-Crypto-nav"><a href="Crypto.html" class="method-link">Crypto</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="Crypto-Decrypt-nav"><a href="Crypto.html#.Decrypt" class="method-link">Decrypt</a></li><li data-type="method" id="Crypto-Encrypt-nav"><a href="Crypto.html#.Encrypt" class="method-link">Encrypt</a></li></ul></li><li id="Utils-nav">
+          <div data-name="Utils" class="class-link-container"><a class="class-link">Utils</a></div><ul class='methods'><li data-type="method" id="Utils-Utils-nav"><a href="Utils.html" class="method-link">Utils</a></li><h4 class="methodGroupHeader">Methods</h4><li data-type="method" id="Utils-AddressToHash-nav"><a href="Utils.html#.AddressToHash" class="method-link">AddressToHash</a></li><li data-type="method" id="Utils-AddressToLibraryId-nav"><a href="Utils.html#.AddressToLibraryId" class="method-link">AddressToLibraryId</a></li><li data-type="method" id="Utils-AddressToObjectId-nav"><a href="Utils.html#.AddressToObjectId" class="method-link">AddressToObjectId</a></li><li data-type="method" id="Utils-AddressToSpaceId-nav"><a href="Utils.html#.AddressToSpaceId" class="method-link">AddressToSpaceId</a></li><li data-type="method" id="Utils-DecodeAuthorizationToken-nav"><a href="Utils.html#.DecodeAuthorizationToken" class="method-link">DecodeAuthorizationToken</a></li><li data-type="method" id="Utils-DecodeVersionHash-nav"><a href="Utils.html#.DecodeVersionHash" class="method-link">DecodeVersionHash</a></li><li data-type="method" id="Utils-EqualAddress-nav"><a href="Utils.html#.EqualAddress" class="method-link">EqualAddress</a></li><li data-type="method" id="Utils-EqualHash-nav"><a href="Utils.html#.EqualHash" class="method-link">EqualHash</a></li><li data-type="method" id="Utils-EtherToWei-nav"><a href="Utils.html#.EtherToWei" class="method-link">EtherToWei</a></li><li data-type="method" id="Utils-FormatAddress-nav"><a href="Utils.html#.FormatAddress" class="method-link">FormatAddress</a></li><li data-type="method" id="Utils-FormatSignature-nav"><a href="Utils.html#.FormatSignature" class="method-link">FormatSignature</a></li><li data-type="method" id="Utils-HashToAddress-nav"><a href="Utils.html#.HashToAddress" class="method-link">HashToAddress</a></li><li data-type="method" id="Utils-IsCloneable-nav"><a href="Utils.html#.IsCloneable" class="method-link">IsCloneable</a></li><li data-type="method" id="Utils-MakeClonable-nav"><a href="Utils.html#.MakeClonable" class="method-link">MakeClonable</a></li><li data-type="method" id="Utils-ResizeImage-nav"><a href="Utils.html#.ResizeImage" class="method-link">ResizeImage</a></li><li data-type="method" id="Utils-ToBigNumber-nav"><a href="Utils.html#.ToBigNumber" class="method-link">ToBigNumber</a></li><li data-type="method" id="Utils-ToBytes32-nav"><a href="Utils.html#.ToBytes32" class="method-link">ToBytes32</a></li><li data-type="method" id="Utils-WeiToEther-nav"><a href="Utils.html#.WeiToEther" class="method-link">WeiToEther</a></li></ul></li></ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="header"></div>
+      <div class="main-content">
+        
+        <h1 class="page-title">
+          UserProfileClient.js
+        </h1>
+        
+
+        
+      
+
+<a class="button" href="UserProfileClient.html">Back</a>
+<div class="source-container">
+  <pre class="prettyprint source linenums"><code>const Utils = require("./Utils");
+const UrlJoin = require("url-join");
+const { FrameClient } = require("./FrameClient");
+const {LogMessage} = require("./LogMessage");
+
+class UserProfileClient {
+  Log(message, error=false) {
+    LogMessage(this, message, error);
+  }
+
+  /**
+   * Methods used to access and modify information about the user
+   *
+   * &lt;h4 id="PromptsAndAccessLevels">A note about access level and prompts: &lt;/h4>
+   *
+   * Note: This section only applies to applications working within Eluvio Core
+   *
+   * Users can choose whether or not their info is shared to applications. A user
+   * may choose to allow open access to their profile, no access to their profile, or
+   * they may choose to be prompted to give access when an application requests it. The
+   * user's access level can be determined using the &lt;a href="#AccessLevel">AccessLevel&lt;/a>
+   * method.
+   *
+   * By default, users will be prompted to give access. For methods that access the user's private information,
+   * Eluvio Core will intercept the request and prompt the user for permission before proceeding. In
+   * these cases, the normal FrameClient timeout period will be ignored, and the response will come
+   * only after the user accepts or rejects the request.
+   *
+   * Access and modification of user metadata is namespaced to the requesting application when using the
+   * FrameClient. Public user metadata can be accessed using the PublicUserMetadata method.
+   *
+   * If the user refuses to give permission, an error will be thrown. Otherwise, the request will proceed
+   * as normal.
+   *
+   * &lt;h4>Usage&lt;/h4>
+   *
+   * Access the UserProfileClient from ElvClient or FrameClient via client.userProfileClient
+   *
+   * @example
+let client = ElvClient.FromConfiguration({configuration: ClientConfiguration});
+
+let wallet = client.GenerateWallet();
+let signer = wallet.AddAccount({
+  accountName: "Alice",
+  privateKey: "0x0000000000000000000000000000000000000000000000000000000000000000"
+});
+client.SetSigner({signer});
+
+await client.userProfileClient.UserMetadata()
+
+let frameClient = new FrameClient();
+await client.userProfileClient.UserMetadata()
+   *
+   */
+  constructor({client, debug}) {
+    this.client = client;
+    this.debug = debug;
+    this.userWalletAddresses = {};
+  }
+
+  async CreateWallet() {
+    if(this.creatingWallet) {
+      while(this.creatingWallet) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+    }
+
+    this.creatingWallet = true;
+
+    try {
+      // Check if wallet contract exists
+      if(!this.walletAddress || Utils.EqualAddress(this.walletAddress, Utils.nullAddress)) {
+        this.Log(`Creating user wallet for user ${this.client.signer.address}`);
+
+        // Don't attempt to create a user wallet if user has no funds
+        const balance = await this.client.GetBalance({address: this.client.signer.address});
+        if(balance &lt; 0.1) {
+          return undefined;
+        }
+
+        const walletCreationEvent = await this.client.CallContractMethodAndWait({
+          contractAddress: Utils.HashToAddress(this.client.contentSpaceId),
+          methodName: "createAccessWallet",
+          methodArgs: []
+        });
+
+        const abi = await this.client.ContractAbi({contractAddress: this.client.contentSpaceAddress});
+        this.walletAddress = this.client.ExtractValueFromEvent({
+          abi,
+          event: walletCreationEvent,
+          eventName: "CreateAccessWallet",
+          eventValue: "wallet"
+        });
+
+        this.userWalletAddresses[Utils.FormatAddress(this.client.signer.address)] = this.walletAddress;
+      }
+
+      // Check if wallet object is created
+      const libraryId = this.client.contentSpaceLibraryId;
+      const objectId = Utils.AddressToObjectId(this.walletAddress);
+
+      try {
+        await this.client.ContentObject({libraryId, objectId});
+      } catch(error) {
+        if(error.status === 404) {
+          this.Log(`Creating wallet object for user ${this.client.signer.address}`);
+          const createResponse = await this.client.CreateContentObject({libraryId, objectId});
+
+          await this.client.FinalizeContentObject({
+            libraryId,
+            objectId,
+            writeToken: createResponse.write_token,
+            commitMessage: "Create user wallet object"
+          });
+        }
+      }
+    } catch(error) {
+      // eslint-disable-next-line no-console
+      console.error("Failed to create wallet contract:");
+      // eslint-disable-next-line no-console
+      console.error(error);
+    } finally {
+      this.creatingWallet = false;
+    }
+  }
+
+  /**
+   * Get the contract address of the current user's BaseAccessWallet contract
+   *
+   * @return {Promise&lt;string>} - The contract address of the current user's wallet contract
+   */
+  async WalletAddress(autoCreate=true) {
+    if(this.walletAddress) { return this.walletAddress; }
+
+    const walletAddress = await this.client.CallContractMethod({
+      contractAddress: Utils.HashToAddress(this.client.contentSpaceId),
+      methodName: "userWallets",
+      methodArgs: [this.client.signer.address]
+    });
+
+    if(!Utils.EqualAddress(walletAddress, Utils.nullAddress)) {
+      this.walletAddress = walletAddress;
+    }
+
+    if(!this.walletAddress &amp;&amp; autoCreate) {
+      await this.CreateWallet();
+    }
+
+    return this.walletAddress;
+  }
+
+  /**
+   * Get the user wallet address for the specified user, if it exists
+   *
+   * @namedParams
+   * @param {string} address - The address of the user
+   *
+   * @return {Promise&lt;string>} - The wallet address of the specified user, if it exists
+   */
+  async UserWalletAddress({address}) {
+    if(Utils.EqualAddress(address, this.client.signer.address)) {
+      return await this.WalletAddress();
+    }
+
+    if(!this.userWalletAddresses[address]) {
+      this.Log(`Retrieving user wallet address for user ${address}`);
+
+      const walletAddress =
+        await this.client.CallContractMethod({
+          contractAddress: Utils.HashToAddress(this.client.contentSpaceId),
+          methodName: "userWallets",
+          methodArgs: [address]
+        });
+
+      if(!Utils.EqualAddress(walletAddress, Utils.nullAddress)) {
+        this.userWalletAddresses[address] = walletAddress;
+      }
+    }
+
+    return this.userWalletAddresses[address];
+  }
+
+  /**
+   * Retrieve the user wallet object information (library ID and object ID)
+   *
+   * The user's wallet can be modified in the same way as any other object, using
+   * EditContentObject to get a write token, modification methods to change it,
+   * and FinalizeContentObject to finalize the draft
+   *
+   * @return {Promise&lt;{Object}>} - An object containing the libraryId and objectId for the wallet object.
+   */
+  async UserWalletObjectInfo({address}={}) {
+
+    const walletAddress = address ?
+      await this.UserWalletAddress({address}) :
+      await this.WalletAddress();
+
+    return {
+      libraryId: this.client.contentSpaceLibraryId,
+      objectId: walletAddress ? Utils.AddressToObjectId(walletAddress) : ""
+    };
+  }
+
+  /**
+   * Access the specified user's public profile metadata
+   *
+   * @namedParams
+   * @param {string=} address - The address of the user
+   * @param {string=} metadataSubtree - Subtree of the metadata to retrieve
+   * @param {Object=} queryParams={} - Additional query params for the call
+   * @param {Array&lt;string>=} select - Limit the returned metadata to the specified attributes
+   * - Note: Selection is relative to "metadataSubtree". For example, metadataSubtree="public" and select=["name", "description"] would select "public/name" and "public/description"
+   * @param {boolean=} resolveLinks=false - If specified, links in the metadata will be resolved
+   * @param {boolean=} resolveIncludeSource=false - If specified, resolved links will include the hash of the link at the root of the metadata
+
+       Example:
+
+       {
+          "resolved-link": {
+            ".": {
+              "source": "hq__HPXNia6UtXyuUr6G3Lih8PyUhvYYHuyLTt3i7qSfYgYBB7sF1suR7ky7YRXsUARUrTB1Um1x5a"
+            },
+            "public": {
+              "name": "My Linked Object",
+            }
+            ...
+          }
+       }
+
+   * @param {boolean=} resolveIgnoreErrors=false - If specified, link errors within the requested metadata will not cause the entire response to result in an error
+   * @param {number=} linkDepthLimit=1 - Limit link resolution to the specified depth. Default link depth is 1 (only links directly in the object's metadata will be resolved)
+   *
+   * @return {Promise&lt;Object|string>}
+   */
+  async PublicUserMetadata({
+    address,
+    metadataSubtree="/",
+    queryParams={},
+    select=[],
+    resolveLinks=false,
+    resolveIncludeSource=false,
+    resolveIgnoreErrors=false,
+    linkDepthLimit=1
+  }) {
+    if(!address) { return; }
+
+    const walletAddress = await this.UserWalletAddress({address});
+
+    if(!walletAddress) { return; }
+
+    metadataSubtree = UrlJoin("public", metadataSubtree || "/");
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo({address});
+
+    if(!objectId) { return; }
+
+    return await this.client.ContentObjectMetadata({
+      libraryId,
+      objectId,
+      queryParams,
+      select,
+      metadataSubtree,
+      resolveLinks,
+      resolveIncludeSource,
+      resolveIgnoreErrors,
+      linkDepthLimit
+    });
+  }
+
+  /**
+   * Access the current user's metadata
+   *
+   * Note: Subject to user's access level
+   *
+   * @see &lt;a href="#PromptsAndAccessLevels">Prompts and access levels&lt;/a>
+   *
+   * @namedParams
+   * @param {string=} metadataSubtree - Subtree of the metadata to retrieve
+   * @param {Object=} queryParams={} - Additional query params for the call
+   * @param {Array&lt;string>=} select - Limit the returned metadata to the specified attributes
+   * - Note: Selection is relative to "metadataSubtree". For example, metadataSubtree="public" and select=["name", "description"] would select "public/name" and "public/description"
+   * @param {boolean=} resolveLinks=false - If specified, links in the metadata will be resolved
+   * @param {boolean=} resolveIncludeSource=false - If specified, resolved links will include the hash of the link at the root of the metadata
+
+       Example:
+
+       {
+          "resolved-link": {
+            ".": {
+              "source": "hq__HPXNia6UtXyuUr6G3Lih8PyUhvYYHuyLTt3i7qSfYgYBB7sF1suR7ky7YRXsUARUrTB1Um1x5a"
+            },
+            "public": {
+              "name": "My Linked Object",
+            }
+            ...
+          }
+       }
+
+   * @param {boolean=} resolveIgnoreErrors=false - If specified, link errors within the requested metadata will not cause the entire response to result in an error
+   * @param {number=} linkDepthLimit=1 - Limit link resolution to the specified depth. Default link depth is 1 (only links directly in the object's metadata will be resolved)
+   *
+   * @return {Promise&lt;Object|string>} - The user's profile metadata - returns undefined if no metadata set or subtree doesn't exist
+   */
+  async UserMetadata({
+    metadataSubtree="/",
+    queryParams={},
+    select=[],
+    resolveLinks=false,
+    resolveIncludeSource=false,
+    resolveIgnoreErrors=false,
+    linkDepthLimit=1
+  }={}) {
+    this.Log(`Accessing private user metadata at ${metadataSubtree}`);
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo();
+
+    return await this.client.ContentObjectMetadata({
+      libraryId,
+      objectId,
+      metadataSubtree,
+      queryParams,
+      select,
+      resolveLinks,
+      resolveIncludeSource,
+      resolveIgnoreErrors,
+      linkDepthLimit
+    });
+  }
+
+  /**
+   * Merge the current user's profile metadata
+   *
+   * @namedParams
+   * @param {Object} metadata - New metadata
+   * @param {string=} metadataSubtree - Subtree to merge into - modifies root metadata if not specified
+   */
+  async MergeUserMetadata({metadataSubtree="/", metadata={}}) {
+    this.Log(`Merging user metadata at ${metadataSubtree}`);
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo();
+
+    const editRequest = await this.client.EditContentObject({libraryId, objectId});
+
+    await this.client.MergeMetadata({libraryId, objectId, writeToken: editRequest.write_token, metadataSubtree, metadata});
+    await this.client.FinalizeContentObject({libraryId, objectId, writeToken: editRequest.write_token, commitMessage: "Merge user metadata"});
+  }
+
+  /**
+   * Replace the current user's profile metadata
+   *
+   * @namedParams
+   * @param {Object} metadata - New metadata
+   * @param {string=} metadataSubtree - Subtree to replace - modifies root metadata if not specified
+   */
+  async ReplaceUserMetadata({metadataSubtree="/", metadata={}}) {
+    this.Log(`Replacing user metadata at ${metadataSubtree}`);
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo();
+
+    const editRequest = await this.client.EditContentObject({libraryId, objectId});
+
+    await this.client.ReplaceMetadata({libraryId, objectId, writeToken: editRequest.write_token, metadataSubtree, metadata});
+    await this.client.FinalizeContentObject({libraryId, objectId, writeToken: editRequest.write_token, commitMessage: "Replace user metadata"});
+  }
+
+  /**
+   * Delete the specified subtree from the users profile metadata
+   *
+   * @namedParams
+   * @param {string=} metadataSubtree - Subtree to delete - deletes all metadata if not specified
+   */
+  async DeleteUserMetadata({metadataSubtree="/"}) {
+    this.Log(`Deleting user metadata at ${metadataSubtree}`);
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo();
+
+    const editRequest = await this.client.EditContentObject({libraryId, objectId});
+
+    await this.client.DeleteMetadata({libraryId, objectId, writeToken: editRequest.write_token, metadataSubtree});
+    await this.client.FinalizeContentObject({libraryId, objectId, writeToken: editRequest.write_token, commitMessage: "Delete user metadata"});
+  }
+
+  /**
+   * Return the permissions the current user allows for apps to access their profile.
+   *
+   * "private" - No access allowed
+   * "prompt" - (default) - When access is requested by an app, the user will be prompted to give permission
+   * "public - Public - Any access allowed
+   *
+   * @return {Promise&lt;string>} - Access setting
+   */
+  async AccessLevel() {
+    return (await this.UserMetadata({metadataSubtree: "access_level"})) || "prompt";
+  }
+
+  /**
+   * Set the current user's access level.
+   *
+   * Note: This method is not accessible to applications. Eluvio core will drop the request.
+   *
+   * @namedParams
+   * @param level
+   */
+  async SetAccessLevel({level}) {
+    level = level.toLowerCase();
+
+    if(!["private", "prompt", "public"].includes(level)) {
+      throw new Error("Invalid access level: " + level);
+    }
+
+    await this.ReplaceUserMetadata({metadataSubtree: "access_level", metadata: level});
+  }
+
+  /**
+   * Return the ID of the tenant this user belongs to, if set.
+   *
+   * @return {Promise&lt;string>} - Tenant ID
+   */
+  async TenantId() {
+    if(!this.tenantId) {
+      this.tenantId = await this.UserMetadata({metadataSubtree: "tenantId"});
+    }
+
+    return this.tenantId;
+  }
+
+  /**
+   * Set the current user's tenant
+   *
+   * Note: This method is not accessible to applications. Eluvio core will drop the request.
+   *
+   * @namedParams
+   * @param level
+   */
+  async SetTenantId({id, address}) {
+    if(id &amp;&amp; !id.startsWith("iten")) {
+      throw Error(`Invalid tenant ID: ${id}`);
+    }
+
+    if(address) {
+      id = `iten${Utils.AddressToHash(address)}`;
+    }
+
+    try {
+      const version = await this.client.AccessType({id});
+
+      if(version !== this.client.authClient.ACCESS_TYPES.GROUP) {
+        throw Error("Invalid tenant ID: " + id);
+      }
+    } catch(error) {
+      throw Error("Invalid tenant ID: " + id);
+    }
+
+    await this.ReplaceUserMetadata({metadataSubtree: "tenantId", metadata: id});
+
+    this.tenantId = id;
+  }
+
+  /**
+   * Get the URL of the current user's profile image
+   *
+   * Note: Part hash of profile image will be appended to the URL as a query parameter to invalidate
+   * browser caching when the image is updated
+   *
+   * @namedParams
+   * @param {string=} address - The address of the user. If not specified, the address of the current user will be used.
+   * @param {number=} height - If specified, the image will be scaled to the specified maximum height
+   *
+   * @see &lt;a href="Utils.html#.ResizeImage">Utils#ResizeImage&lt;/a>
+   *
+   * @return {Promise&lt;string | undefined>} - URL of the user's profile image. Will be undefined if no profile image is set.
+   */
+  async UserProfileImage({address, height}={}) {
+    let walletAddress;
+    if(address) {
+      walletAddress = await this.UserWalletAddress({address});
+    } else {
+      address = this.client.signer.address;
+      walletAddress = this.walletAddress;
+    }
+
+    if(!walletAddress) { return; }
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo({address});
+    return this.client.ContentObjectImageUrl({libraryId, objectId, height, imagePath: "public/profile_image"});
+  }
+
+  /**
+   * Set a new profile image for the current user
+   *
+   * @namedParams
+   * @param {blob} image - The new profile image for the current user
+   */
+  async SetUserProfileImage({image}) {
+    this.Log(`Setting profile image for user ${this.client.signer.address}`);
+
+    const size = image.length || image.byteLength || image.size;
+    if(size > 5000000) {
+      throw Error("Maximum profile image size is 5MB");
+    }
+
+    const { libraryId, objectId } = await this.UserWalletObjectInfo();
+
+    const editRequest = await this.client.EditContentObject({libraryId, objectId});
+
+    await this.client.SetContentObjectImage({
+      libraryId,
+      objectId,
+      writeToken: editRequest.write_token,
+      image,
+      imageName: "profile_image",
+      imagePath: "public/profile_image"
+    });
+
+    await this.client.FinalizeContentObject({libraryId, objectId, writeToken: editRequest.write_token, commitMessage: "Set user profile image"});
+  }
+
+  /**
+   * Get the accumulated tags for the current user
+   *
+   * Note: Subject to user's access level
+   *
+   * @see &lt;a href="#PromptsAndAccessLevels">Prompts and access levels&lt;/a>
+   *
+   * @return {Promise&lt;Object>} - User tags
+   */
+  async CollectedTags() {
+    return await this.UserMetadata({metadataSubtree: "collected_data"}) || {};
+  }
+
+  // Ensure recording tags never causes action to fail
+  async RecordTags({libraryId, objectId, versionHash}) {
+    try {
+      await this.__RecordTags({libraryId, objectId, versionHash});
+    } catch(error) {
+      // eslint-disable-next-line no-console
+      console.error(error);
+    }
+  }
+
+  async __RecordTags({libraryId, objectId, versionHash}) {
+    const accessType = await this.client.AccessType({id: objectId});
+    if(accessType !== "object") { return; }
+
+    if(!versionHash &amp;&amp; !libraryId) {
+      libraryId = await this.client.ContentObjectLibraryId({objectId});
+    }
+
+    if(!versionHash) {
+      versionHash = (await this.client.ContentObject({libraryId, objectId})).hash;
+    }
+
+    // If this object has already been seen, don't re-record tags
+    const seen = await this.UserMetadata({metadataSubtree: UrlJoin("accessed_content", versionHash)});
+    if(seen) { return; }
+
+    const walletObjectInfo = await this.UserWalletObjectInfo();
+    const userLibraryId = walletObjectInfo.libraryId;
+    const userObjectId = walletObjectInfo.objectId;
+
+    // Mark content as seen
+    const editRequest = await this.client.EditContentObject({libraryId: userLibraryId, objectId: userObjectId});
+    await this.client.ReplaceMetadata({
+      libraryId: userLibraryId,
+      objectId: userObjectId,
+      writeToken: editRequest.write_token,
+      metadataSubtree: UrlJoin("accessed_content", versionHash),
+      metadata: Date.now()
+    });
+
+    const contentTags = await this.client.ContentObjectMetadata({
+      libraryId,
+      objectId,
+      versionHash,
+      metadataSubtree: "video_tags"
+    });
+
+    if(contentTags &amp;&amp; contentTags.length > 0) {
+      let userTags = await this.CollectedTags();
+      const formattedTags = this.__FormatVideoTags(contentTags);
+
+      Object.keys(formattedTags).forEach(tag => {
+        if(userTags[tag]) {
+          // User has seen this tag before
+          userTags[tag].occurrences += 1;
+          userTags[tag].aggregate += formattedTags[tag];
+        } else {
+          // New tag
+          userTags[tag] = {
+            occurrences: 1,
+            aggregate: formattedTags[tag]
+          };
+        }
+      });
+
+      // Update user tags
+      await this.client.ReplaceMetadata({
+        libraryId: userLibraryId,
+        objectId: userObjectId,
+        writeToken: editRequest.write_token,
+        metadataSubtree: "collected_data",
+        metadata: userTags
+      });
+    }
+
+    await this.client.FinalizeContentObject({
+      libraryId: userLibraryId,
+      objectId: userObjectId,
+      writeToken: editRequest.write_token,
+      commitMessage: "Record user tags",
+      awaitCommitConfirmation: false
+    });
+  }
+
+  /*
+    Format video tags into an easier format and average scores
+    Example content tags:
+    [
+    {
+      "tags": [
+        {
+          "score": 0.3,
+          "tag": "cherry"
+        },
+        {
+          "score": 0.8,
+          "tag": "chocolate"
+        },
+        {
+          "score": 0.6,
+          "tag": "boat"
+        }
+      ],
+      "time_in": "00:00:00.000",
+      "time_out": "00:03:00.000"
+    },
+    ...
+    ]
+ */
+  __FormatVideoTags(videoTags) {
+    let collectedTags = {};
+
+    videoTags.forEach(videoTag => {
+      const tags = videoTag["tags"];
+
+      tags.forEach(tag => {
+        if(collectedTags[tag.tag]) {
+          collectedTags[tag.tag].occurrences += 1;
+          collectedTags[tag.tag].aggregate += tag.score;
+        } else {
+          collectedTags[tag.tag] = {
+            occurrences: 1,
+            aggregate: tag.score
+          };
+        }
+      });
+    });
+
+    let formattedTags = {};
+    Object.keys(collectedTags).forEach(tag => {
+      formattedTags[tag] = collectedTags[tag].aggregate / collectedTags[tag].occurrences;
+    });
+
+    return formattedTags;
+  }
+
+  // List of methods that may require a prompt - these should have an unlimited timeout period
+  PromptedMethods() {
+    return FrameClient.PromptedMethods();
+  }
+
+  // List of methods for accessing user metadata - these should be namespaced when used by an app
+  MetadataMethods() {
+    return FrameClient.MetadataMethods();
+  }
+
+  // Whitelist of methods allowed to be called using the frame API
+  FrameAllowedMethods() {
+    const forbiddenMethods = [
+      "constructor",
+      "FrameAllowedMethods",
+      "Log",
+      "MetadataMethods",
+      "PromptedMethods",
+      "RecordTags",
+      "SetAccessLevel",
+      "SetTenantId",
+      "SetUserProfileImage",
+      "__IsLibraryCreated",
+      "__TouchLibrary",
+      "__FormatVideoTags",
+      "__RecordTags"
+    ];
+
+    return Object.getOwnPropertyNames(Object.getPrototypeOf(this))
+      .filter(method => !forbiddenMethods.includes(method));
+  }
+}
+
+module.exports = UserProfileClient;
+</code></pre>
+</div>
+
+    
+
+
+
+        <footer class="footer">
+          Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Format and add line numbers to code
+    prettyPrint();
+  </script>
+
+  <script type="text/javascript" src="scripts/utils.js"></script>
+
+  </body>
+</html>

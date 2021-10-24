@@ -1,0 +1,8 @@
+[
+  {
+    "signature": "async RemoveItemPolicy({\n  \"policyId\": \"iq__BKUZ8G6FagVjK74NANSq3rwskEp\",\n  \"policyWriteToken\": \"tqw__HSQQdnKZTMbqVWkQLrCyxWkPah6faERJGoaynX7JNbPgijJJXGdPu9Rybs2av6PXHvaP1tVDqiZjVZySVm1\",\n  \"itemId\": \"iq__2A5mVX6SZRPD5DiumRULLKrDJ3ay\"\n});"
+  },
+  {
+    "signature": "async RemoveItemPolicy({\n  \"policyId\": \"iq__BKUZ8G6FagVjK74NANSq3rwskEp\",\n  \"policyWriteToken\": \"tqw__HSQQdnKZTMbqVWkQLrCyxWkPah6faERJGoaynX7JNbPgijJJXGdPu9Rybs2av9BcvrU3NsMGrjFy6X6BkN6\",\n  \"itemId\": \"iq__127hgef9FgcHkKxmwe6vTaW99UA\"\n});"
+  }
+]

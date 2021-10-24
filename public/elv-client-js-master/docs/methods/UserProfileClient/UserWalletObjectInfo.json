@@ -1,0 +1,10 @@
+[
+  {
+    "signature": "async UserWalletObjectInfo();",
+    "result": "{\n  \"libraryId\": \"ilib4BRmonTig9QSD87MRWP8F5iLfdct\",\n  \"objectId\": \"iq__WB24yeBj9Hb9rsyxoDBv4z9xi1t\"\n}"
+  },
+  {
+    "signature": "async UserWalletObjectInfo({\n  \"address\": \"0x793E41369eb3C8b579da28a41c350837c18b25Be\"\n});",
+    "result": "{\n  \"libraryId\": \"ilib4BRmonTig9QSD87MRWP8F5iLfdct\",\n  \"objectId\": \"iq__WB24yeBj9Hb9rsyxoDBv4z9xi1t\"\n}"
+  }
+]

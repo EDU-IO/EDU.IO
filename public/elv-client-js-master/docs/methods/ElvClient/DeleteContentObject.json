@@ -1,0 +1,11 @@
+[
+  {
+    "signature": "async DeleteContentObject({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\"\n});"
+  },
+  {
+    "signature": "async DeleteContentObject({\n  \"libraryId\": \"ilib3JgZBNxZE8ZkM4jP8YUAdTnjukWV\",\n  \"objectId\": \"iq__fQhR2f757MCYQ7SNrwKh39XeSPs\"\n});"
+  },
+  {
+    "signature": "async DeleteContentObject({\n  \"libraryId\": \"ilib2wXUwatNUvPoBWtNyiyDEsEYRxX3\",\n  \"objectId\": \"iq__3MvjYsa9bi4aywAYAXUhrvsQVHZq\"\n});"
+  }
+]

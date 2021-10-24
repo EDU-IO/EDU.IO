@@ -1,0 +1,10 @@
+[
+  {
+    "signature": "async AccessGroupManagers({\n  \"contractAddress\": \"0x1770921fada087576272ccca2a30cc0f5bbec934\"\n});",
+    "result": "[\n  \"0x665aee2328fa4040e569e91be23faf5a82a6186c\",\n  \"0x249e5764b14962387e82429152ca748d90130769\"\n]"
+  },
+  {
+    "signature": "async AccessGroupManagers({\n  \"contractAddress\": \"0x1770921fada087576272ccca2a30cc0f5bbec934\"\n});",
+    "result": "[\n  \"0x249e5764b14962387e82429152ca748d90130769\"\n]"
+  }
+]

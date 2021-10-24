@@ -1,0 +1,10 @@
+[
+  {
+    "signature": " AudienceData([object Object]);",
+    "result": "{\n  \"user_address\": \"0x48b6b6a98bce564394dad9e98dc7a87c5bbbf3fe\",\n  \"content_id\": \"iq__26LhSe9vNhqqjHv6ghtNwyzG6pp3\",\n  \"content_hash\": \"hq__5QeTUhS59EoAAaY372wPBgn9L62VWXFhqGE1bUjNSoCogmacffVkAAsExFb4gV61GjQKkExthR\",\n  \"hostname\": \"host-35-233-145-232.test.contentfabric.io\",\n  \"access_time\": \"1592591871944\",\n  \"format\": \"\",\n  \"drm\": \"\",\n  \"user_string\": \"Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.12.0\",\n  \"language\": \"en-US\"\n}"
+  },
+  {
+    "signature": " AudienceData([object Object]);",
+    "result": "{\n  \"user_address\": \"0x48b6b6a98bce564394dad9e98dc7a87c5bbbf3fe\",\n  \"content_id\": \"iq__26LhSe9vNhqqjHv6ghtNwyzG6pp3\",\n  \"content_hash\": \"hq__5QeTUhS59EoAAaY372wPBgn9L62VWXFhqGE1bUjNSoCogmacffVkAAsExFb4gV61GjQKkExthR\",\n  \"hostname\": \"host-35-233-145-232.test.contentfabric.io\",\n  \"access_time\": \"1592591872646\",\n  \"format\": \"\",\n  \"drm\": \"\",\n  \"user_string\": \"Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.12.0\",\n  \"language\": \"en-US\"\n}"
+  }
+]

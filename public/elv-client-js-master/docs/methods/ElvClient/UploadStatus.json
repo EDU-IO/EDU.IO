@@ -1,0 +1,26 @@
+[
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7D67uovUACWYtgzjyg9xB6v\",\n  \"uploadId\": \"iqfjJaGNEhyopNVKTnsjDKqF2j\"\n});",
+    "result": "{\n  \"id\": \"iqfjJaGNEhyopNVKTnsjDKqF2j\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"COMPLETED\",\n  \"ingest_copy\": {\n    \"done\": true,\n    \"progress\": {\n      \"files\": {\n        \"total\": 1,\n        \"completed\": 1,\n        \"failed\": 0,\n        \"in_progress\": 0,\n        \"details\": {}\n      },\n      \"bytes\": {\n        \"total\": 97944174,\n        \"completed\": 97944174\n      }\n    }\n  }\n}"
+  },
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7WGT2ygMgjMdgASLBW5yxDT\",\n  \"uploadId\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\"\n});",
+    "result": "{\n  \"id\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"IN_PROGRESS\",\n  \"ingest_copy\": {\n    \"done\": false,\n    \"progress\": {\n      \"files\": {\n        \"total\": 1,\n        \"completed\": 0,\n        \"failed\": 0,\n        \"in_progress\": 1,\n        \"details\": {\n          \"/eluvio-mez-test/ENTIRE_CREED_2min_.mp4\": {\n            \"size\": 100094370,\n            \"written\": 25416002,\n            \"percent\": 25.392039532293374\n          }\n        }\n      },\n      \"bytes\": {\n        \"total\": 100094370,\n        \"completed\": 25416002\n      }\n    }\n  }\n}"
+  },
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7WGT2ygMgjMdgASLBW5yxDT\",\n  \"uploadId\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\"\n});",
+    "result": "{\n  \"id\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"IN_PROGRESS\",\n  \"ingest_copy\": {\n    \"done\": false,\n    \"progress\": {\n      \"files\": {\n        \"total\": 1,\n        \"completed\": 0,\n        \"failed\": 0,\n        \"in_progress\": 1,\n        \"details\": {\n          \"/eluvio-mez-test/ENTIRE_CREED_2min_.mp4\": {\n            \"size\": 100094370,\n            \"written\": 76566882,\n            \"percent\": 76.49469395731248\n          }\n        }\n      },\n      \"bytes\": {\n        \"total\": 100094370,\n        \"completed\": 76566882\n      }\n    }\n  }\n}"
+  },
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7WGT2ygMgjMdgASLBW5yxDT\",\n  \"uploadId\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\"\n});",
+    "result": "{\n  \"id\": \"iqfjD3USWXWsbUcdLnH5mKTCwA\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"COMPLETED\",\n  \"ingest_copy\": {\n    \"done\": true,\n    \"progress\": {\n      \"files\": {\n        \"total\": 1,\n        \"completed\": 1,\n        \"failed\": 0,\n        \"in_progress\": 0,\n        \"details\": {}\n      },\n      \"bytes\": {\n        \"total\": 100094370,\n        \"completed\": 100094370\n      }\n    }\n  }\n}"
+  },
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7SAtXwd7B583MLExzu8GYrB\",\n  \"uploadId\": \"iqfjVxdQ566cMuHE1Q4aRyRoEA\"\n});",
+    "result": "{\n  \"id\": \"iqfjVxdQ566cMuHE1Q4aRyRoEA\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"COMPLETED\",\n  \"add_reference\": {\n    \"done\": true,\n    \"progress\": {\n      \"total\": 1,\n      \"completed\": 1\n    }\n  }\n}"
+  },
+  {
+    "signature": "async UploadStatus({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d75WnXNsWVUMiiwaLrpg5gAB\",\n  \"uploadId\": \"iqfjL1hC7hSd62wvWtjYgm87EG\"\n});",
+    "result": "{\n  \"id\": \"iqfjL1hC7hSd62wvWtjYgm87EG\",\n  \"seqs\": [\n    0\n  ],\n  \"seq_complete\": true,\n  \"status\": \"FAILED\",\n  \"error\": \"op [ingest] kind [I/O error] builder [<nil>] download [<nil>] resolve [op [cloud resolver] kind [I/O error] cause [map[/eluvio-mez-test/invalid-file:op [resolve] kind [I/O error] cause:\\n\\top [cloudFile.StatObject] kind [item does not exist] path [/eluvio-mez-test/invalid-file] cause:\\n\\top [attributes] kind [item does not exist] bucket [eluvio-mez-test] key [invalid-file] message [Not Found] request_id [GJYDP3XRXV5MJ58N] status_code [404] cause [NotFound: Not Found\\n\\tstatus code: 404, request id: GJYDP3XRXV5MJ58N, host id: VilRQ0YSkC2v7FzCO3iEK2xKAplw9EJSI+2nd75pZwzHynEyn+LVdlAxlMdEgdiq2GNVUGZbokM=]]]]\"\n}"
+  }
+]

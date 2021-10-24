@@ -1,0 +1,5 @@
+[
+  {
+    "signature": "async RemoveSubjectPermissions({\n  \"policyId\": \"iq__BKUZ8G6FagVjK74NANSq3rwskEp\",\n  \"policyWriteToken\": \"tqw__HSQQdnKZTMbqVWkQLrCyxWkPah6faERJGoaynX7JNbPgijJJXGdPu9Rybs2auxfMamN3DKuBg3aX5NUaE9T\",\n  \"subjectId\": \"QOTPQVagZQv7Mkt\"\n});"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "signature": "async WalletAddress();",
+    "result": "\"0x241a6aB51F92720FAe628FF193886be4844e03ef\""
+  },
+  {
+    "signature": "async WalletAddress(false);",
+    "result": "\"0x241a6aB51F92720FAe628FF193886be4844e03ef\""
+  }
+]

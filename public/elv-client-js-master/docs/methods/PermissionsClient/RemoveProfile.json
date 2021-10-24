@@ -1,0 +1,5 @@
+[
+  {
+    "signature": "async RemoveProfile({\n  \"policyId\": \"iq__BKUZ8G6FagVjK74NANSq3rwskEp\",\n  \"policyWriteToken\": \"tqw__HSQQdnKZTMbqVWkQLrCyxWkPah6faERJGoaynX7JNbPgijJJXGdPu9Rybs2avA8K9eqFzwQCZRNtQPK2wVx\",\n  \"itemId\": \"iq__2A5mVX6SZRPD5DiumRULLKrDJ3ay\",\n  \"profileName\": \"Special Access\"\n});"
+  }
+]

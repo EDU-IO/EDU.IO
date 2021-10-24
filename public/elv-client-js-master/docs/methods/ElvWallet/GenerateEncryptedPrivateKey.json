@@ -1,0 +1,6 @@
+[
+  {
+    "signature": "async GenerateEncryptedPrivateKey({\n  \"signer\": \"<Ethers#Wallet>\",\n  \"password\": \"test\",\n  \"options\": {\n    \"scrypt\": {\n      \"N\": 16384\n    }\n  }\n});",
+    "result": "\"{\\\"address\\\":\\\"95ced938f7991cd0dfcb48f0a06a40fa1af46ebc\\\",\\\"id\\\":\\\"cb3470a3-6531-4ce4-8b5c-efc5912265f1\\\",\\\"version\\\":3,\\\"Crypto\\\":{\\\"cipher\\\":\\\"aes-128-ctr\\\",\\\"cipherparams\\\":{\\\"iv\\\":\\\"c953ac2866ba4ed94f3c94ae38c0af25\\\"},\\\"ciphertext\\\":\\\"2672b966d9a9c636a1f5e7f5028bfcf24416028bd4e8096675af2815a10ee50e\\\",\\\"kdf\\\":\\\"scrypt\\\",\\\"kdfparams\\\":{\\\"salt\\\":\\\"0d0ab65f6046720d5c7e43aa3f8ad29a138ea834ce4b5c1a746538a030efd187\\\",\\\"n\\\":16384,\\\"dklen\\\":32,\\\"p\\\":1,\\\"r\\\":8},\\\"mac\\\":\\\"d907fa3fb1f0f97a7ff1242a467769ecd85fa232fe835890a9a900f5a38ef9b0\\\"}}\""
+  }
+]

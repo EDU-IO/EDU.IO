@@ -1,0 +1,11 @@
+[
+  {
+    "signature": "async UploadFilesFromS3({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7D67uovUACWYtgzjyg9xB6v\",\n  \"fileInfo\": [\n    {\n      \"path\": \"s3-copy\",\n      \"source\": \"ENTIRE_CREED_2min_.mp4\"\n    }\n  ],\n  \"region\": \"us-west-1\",\n  \"bucket\": \"eluvio-mez-test\",\n  \"accessKey\": \"<filtered>\",\n  \"secret\": \"<filtered>\",\n  \"copy\": true,\n  \"callback\": \"<function>\"\n});"
+  },
+  {
+    "signature": "async UploadFilesFromS3({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7WGT2ygMgjMdgASLBW5yxDT\",\n  \"encryption\": \"cgck\",\n  \"fileInfo\": [\n    {\n      \"path\": \"s3-copy-encrypted\",\n      \"source\": \"ENTIRE_CREED_2min_.mp4\"\n    }\n  ],\n  \"region\": \"us-west-1\",\n  \"bucket\": \"eluvio-mez-test\",\n  \"accessKey\": \"<filtered>\",\n  \"secret\": \"<filtered>\",\n  \"copy\": true,\n  \"callback\": \"<function>\"\n});"
+  },
+  {
+    "signature": "async UploadFilesFromS3({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"writeToken\": \"tqw__HSWgNH437Rr4NGVUdmRuWp9fZceiqnsHECxy4Z2RAfTzinnEYjVkCn2sAB1d7SAtXwd7B583MLExzu8GYrB\",\n  \"fileInfo\": [\n    {\n      \"path\": \"s3-reference\",\n      \"source\": \"ENTIRE_CREED_2min_.mp4\"\n    }\n  ],\n  \"region\": \"us-west-1\",\n  \"bucket\": \"eluvio-mez-test\",\n  \"accessKey\": \"<filtered>\",\n  \"secret\": \"<filtered>\",\n  \"copy\": false,\n  \"callback\": \"<function>\"\n});"
+  }
+]

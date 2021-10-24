@@ -1,0 +1,6 @@
+[
+  {
+    "signature": "async RemoveAccessGroupManager({\n  \"contractAddress\": \"0x1770921fada087576272ccca2a30cc0f5bbec934\",\n  \"memberAddress\": \"0x665aee2328fa4040e569e91be23faf5a82a6186c\"\n});",
+    "result": "\"0xa614ad929cc3e7bc8e9419ecd2fd8306f2344d5b2a30dda5ed554df988252575\""
+  }
+]

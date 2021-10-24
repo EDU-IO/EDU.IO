@@ -1,0 +1,232 @@
+[
+  {
+    "signature": " MakeClonable({\n  \"string\": \"value\",\n  \"number\": 0.5,\n  \"nested\": {\n    \"value\": \"something\"\n  },\n  \"set\": \"<Set>\",\n  \"map\": \"<Map>\",\n  \"arrayBuffer\": \"<ArrayBuffer 20>\",\n  \"blob\": \"<Blob>\"\n});",
+    "result": "{\n  \"string\": \"value\",\n  \"number\": 0.5,\n  \"nested\": {\n    \"value\": \"something\"\n  },\n  \"set\": \"<Set>\",\n  \"map\": \"<Map>\",\n  \"arrayBuffer\": \"<ArrayBuffer 20>\",\n  \"blob\": \"<Blob>\"\n}"
+  },
+  {
+    "signature": " MakeClonable(\"value\");",
+    "result": "\"value\""
+  },
+  {
+    "signature": " MakeClonable(0.5);",
+    "result": "0.5"
+  },
+  {
+    "signature": " MakeClonable({\n  \"value\": \"something\"\n});",
+    "result": "{\n  \"value\": \"something\"\n}"
+  },
+  {
+    "signature": " MakeClonable(2);",
+    "result": "2"
+  },
+  {
+    "signature": " MakeClonable(\"b\");",
+    "result": "\"b\""
+  },
+  {
+    "signature": " MakeClonable({\n  \"a\": \"b\"\n});",
+    "result": "{\n  \"a\": \"b\"\n}"
+  },
+  {
+    "signature": " MakeClonable();"
+  },
+  {
+    "signature": " MakeClonable({});",
+    "result": "<Map>"
+  },
+  {
+    "signature": " MakeClonable({});",
+    "result": "<Set>"
+  },
+  {
+    "signature": " MakeClonable({\n  \"0\": 100,\n  \"1\": 100,\n  \"2\": 49,\n  \"3\": 55,\n  \"4\": 54,\n  \"5\": 50,\n  \"6\": 51,\n  \"7\": 97,\n  \"8\": 49,\n  \"9\": 55,\n  \"10\": 53,\n  \"11\": 98,\n  \"12\": 56,\n  \"13\": 51,\n  \"14\": 97,\n  \"15\": 99,\n  \"16\": 99,\n  \"17\": 50,\n  \"18\": 98,\n  \"19\": 56,\n  \"20\": 102,\n  \"21\": 102,\n  \"22\": 48,\n  \"23\": 56,\n  \"24\": 99,\n  \"25\": 54,\n  \"26\": 98,\n  \"27\": 48,\n  \"28\": 51,\n  \"29\": 98,\n  \"30\": 51,\n  \"31\": 100,\n  \"32\": 50,\n  \"33\": 54,\n  \"34\": 52,\n  \"35\": 53,\n  \"36\": 57,\n  \"37\": 56,\n  \"38\": 48,\n  \"39\": 99\n});",
+    "result": "<ArrayBuffer 40>"
+  },
+  {
+    "signature": " MakeClonable({});",
+    "result": "<ArrayBuffer 20>"
+  },
+  {
+    "signature": " MakeClonable({});",
+    "result": "<Blob>"
+  },
+  {
+    "signature": " MakeClonable({\n  \"size\": 0,\n  \"timeout\": 0\n});"
+  },
+  {
+    "signature": " MakeClonable();"
+  },
+  {
+    "signature": " MakeClonable({});",
+    "result": "\"Error\""
+  },
+  {
+    "signature": " MakeClonable({\n  \"string\": \"value\",\n  \"number\": 0.5,\n  \"nested\": {\n    \"value\": \"something\"\n  },\n  \"map\": \"<Map>\",\n  \"set\": \"<Set>\",\n  \"buffer\": \"<Buffer 40>\",\n  \"arrayBuffer\": \"<ArrayBuffer 20>\",\n  \"blob\": \"<Blob>\",\n  \"response\": \"<Response 0>\",\n  \"function\": \"<function>\",\n  \"error\": {}\n});",
+    "result": "{\n  \"string\": \"value\",\n  \"number\": 0.5,\n  \"nested\": {\n    \"value\": \"something\"\n  },\n  \"map\": \"<Map>\",\n  \"set\": \"<Set>\",\n  \"buffer\": \"<ArrayBuffer 40>\",\n  \"arrayBuffer\": \"<ArrayBuffer 20>\",\n  \"blob\": \"<Blob>\",\n  \"error\": \"Error\"\n}"
+  },
+  {
+    "signature": " MakeClonable();"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 1,\n  \"response\": []\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 1,\n  \"response\": []\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"name\": \"test library\"\n});",
+    "result": "{\n  \"name\": \"test library\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 2,\n  \"response\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 2,\n  \"response\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"libraryId\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n});",
+    "result": "{\n  \"libraryId\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 3,\n  \"response\": {\n    \"id\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\",\n    \"qid\": \"iq__asP2Nff27BWoXJMuUevk2k7MoR6\",\n    \"meta\": {}\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 3,\n  \"response\": {\n    \"id\": \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\",\n    \"qid\": \"iq__asP2Nff27BWoXJMuUevk2k7MoR6\",\n    \"meta\": {}\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable();"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 4,\n  \"response\": \"0x4093a61065823cfcbf2bc7caddb72c680cdeff54\"\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 4,\n  \"response\": \"0x4093a61065823cfcbf2bc7caddb72c680cdeff54\"\n}"
+  },
+  {
+    "signature": " MakeClonable();"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 5,\n  \"response\": \"prompt\"\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 5,\n  \"response\": \"prompt\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 6,\n  \"response\": [\n    \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n  ]\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 6,\n  \"response\": [\n    \"ilibasP2Nff27BWoXJMuUevk2k7MoR6\"\n  ]\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"name\": \"test frame client\"\n});",
+    "result": "{\n  \"name\": \"test frame client\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 7,\n  \"response\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 7,\n  \"response\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n});",
+    "result": "{\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 8,\n  \"response\": {\n    \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n    \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"type\": \"\",\n    \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n    \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 8,\n  \"response\": {\n    \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n    \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"type\": \"\",\n    \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n    \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n  \"data\": \"<ArrayBuffer 100000>\",\n  \"chunkSize\": 10000\n});",
+    "result": "{\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n  \"data\": \"<ArrayBuffer 100000>\",\n  \"chunkSize\": 10000\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 9,\n  \"response\": {\n    \"content\": {\n      \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n      \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n      \"type\": \"\",\n      \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n    },\n    \"part\": {\n      \"hash\": \"hqp_8fUQ3kJWzWY62sTLwcirKQremLxuquS3ymLA8TEns7PVtmkZ\",\n      \"size\": 100000\n    }\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 9,\n  \"response\": {\n    \"content\": {\n      \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n      \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n      \"type\": \"\",\n      \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n    },\n    \"part\": {\n      \"hash\": \"hqp_8fUQ3kJWzWY62sTLwcirKQremLxuquS3ymLA8TEns7PVtmkZ\",\n      \"size\": 100000\n    }\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\"\n});",
+    "result": "{\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"writeToken\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\"\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 10,\n  \"response\": {\n    \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n    \"hash\": \"hq__7XuU9GFMnF29EkjLF74nWsqVTsGbEaSF8TimJStL8bG4davDDeWK1nW6vG3i9GqAJduWhfFr4z\",\n    \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"type\": \"\",\n    \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 10,\n  \"response\": {\n    \"id\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n    \"hash\": \"hq__7XuU9GFMnF29EkjLF74nWsqVTsGbEaSF8TimJStL8bG4davDDeWK1nW6vG3i9GqAJduWhfFr4z\",\n    \"write_token\": \"tqw__HSVNqfBVe2iVEggZnEPFH2ek4yT6y4qgbiGKbTtUTqSwWziT1RyyCf2NDwjeguwLkkfz1tEbgGi4ip65QgF\",\n    \"type\": \"\",\n    \"qlib_id\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"partHash\": \"hqp_8fUQ3kJWzWY62sTLwcirKQremLxuquS3ymLA8TEns7PVtmkZ\",\n  \"chunked\": true,\n  \"chunkSize\": 10000\n});",
+    "result": "{\n  \"libraryId\": \"ilib3j1iarYtn2gs3T8t6wqgufwxgtNH\",\n  \"objectId\": \"iq__2uKpqT1C2xtonWusjTUuJ7GrYVwg\",\n  \"partHash\": \"hqp_8fUQ3kJWzWY62sTLwcirKQremLxuquS3ymLA8TEns7PVtmkZ\",\n  \"chunked\": true,\n  \"chunkSize\": 10000\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 10000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 10000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 20000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 20000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 30000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 30000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 40000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 40000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 50000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 50000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 60000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 60000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 70000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 70000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 80000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 80000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 90000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 90000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 100000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 12,\n  \"response\": {\n    \"bytesFinished\": 100000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 11\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 11\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 10000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 10000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 20000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 20000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 30000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 30000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 40000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 40000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 50000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 50000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 60000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 60000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 70000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 70000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 80000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 80000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 90000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 90000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 100000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 14,\n  \"response\": {\n    \"bytesFinished\": 100000,\n    \"bytesTotal\": 100000,\n    \"chunk\": \"<ArrayBuffer 10000>\"\n  }\n}"
+  },
+  {
+    "signature": " MakeClonable({\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 13\n});",
+    "result": "{\n  \"type\": \"ElvFrameResponse\",\n  \"requestId\": 13\n}"
+  }
+]

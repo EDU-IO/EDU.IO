@@ -1,0 +1,6 @@
+[
+  {
+    "signature": "async Proofs({\n  \"libraryId\": \"ilib3762veoskHQtAwoUZZRX26V2qKc2\",\n  \"objectId\": \"iq__3MXtFtRdbFtPwKHmw46mgmd8GQjs\",\n  \"partHash\": \"hqp_R3rrwwWjBqFTzW4FbcDni1fmRZNtp6basgRReMau3HLVZTpR\"\n});",
+    "result": "{\n  \"root_hash\": \"cbaa8f55efa6d0af4f1fec811f909e061555cfbb63bb3cee5ccd6115f42d2084\",\n  \"proofs\": [\n    {\n      \"byte_beg\": 0,\n      \"byte_end\": 99999,\n      \"proof\": [\n        \"cbaa8f55efa6d0af4f1fec811f909e061555cfbb63bb3cee5ccd6115f42d2084\"\n      ]\n    }\n  ],\n  \"proof_data\": {\n    \"cbaa8f55efa6d0af4f1fec811f909e061555cfbb63bb3cee5ccd6115f42d2084\": \"+FyhIPEGBJh9T7TDuHobdRSzTMz3Vh9Hf18KMQDLZhBbR7F4uDgAAAAAAAAAAAAAAAAAAAAAn4YBAAAAAADxBgSYfU+0w7h6G3UUs0zM91YfR39fCjEAy2YQW0exeA==\"\n  }\n}"
+  }
+]
