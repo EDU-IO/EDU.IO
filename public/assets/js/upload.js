@@ -1,7 +1,7 @@
 const input = document.getElementById("input");
 const createbtn = document.getElementById("createbtn");
 
-// input.addEventListener("change", getFiles, false);
+input.addEventListener("change", getFiles, false);
 var file = null;
 
 async function getFiles() {
